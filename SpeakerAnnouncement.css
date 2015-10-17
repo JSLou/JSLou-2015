@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300);
+
+
+.speakerAnnouncement {
+    background: black;
+    color: white;
+    font-family: "Open Sans", helvetica, arial, verdana, sans-serif;
+    padding: 20px;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 500px) {
+  .row1 {
+      flex-direction: column;  
+  }
+}
+
+.leftSide {
+    position: relative;
+
+}
+
+.leftSide .bioPicContainer {
+    width: 282px;
+    margin: 10px;
+    position: relative;
+}
+
+@media (max-width: 500px) {
+  .leftSide .bioPicContainer {
+      margin: 0 auto;
+  }
+}
+
+.leftSide .bioPic {
+    width: 250px;
+    left: 16px;
+    position: relative;
+}
+
+.leftSide .brackets {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+}
+
+.rightSide {
+    padding: 10px;
+}
+
+.speakerAnnouncement .row1 a {
+    color: rgb(196, 33, 43);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.speakerAnnouncement .row1 h2 {
+    font-family: "Yanone Kaffeesatz", helvetica, arial, verdana, sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 2;
+    font-weight: 100;
+    font-kerning: auto;
+    margin-bottom: 10px;
+    line-height: 2.7rem;
+
+}
+
+.speakerAnnouncement .row2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.speakerAnnouncement .row2 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.speakerAnnouncement .row2 strong {
+    color: rgb(196, 33, 43);
+}
