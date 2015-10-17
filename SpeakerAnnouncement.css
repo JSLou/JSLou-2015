@@ -15,8 +15,12 @@
 
 @media (max-width: 500px) {
   .row1 {
-      flex-direction: column;  
+      flex-direction: column;
   }
+}
+.redLink{
+  color: rgb(196, 33, 43);
+  text-decoration: none;
 }
 
 .rsvpButton {
@@ -25,13 +29,13 @@
     border-radius: 10px;
     text-decoration: none;
     padding: 5px 12px 8px 12px;
-    border-bottom: 3px solid rgb(99, 3, 6); 
+    border-bottom: 3px solid rgb(99, 3, 6);
     position: relative;
 }
 
 .rsvpButton:hover {
-    background-color: rgb(245, 65, 75); 
-    border-bottom: 3px solid rgb(196, 33, 43); 
+    background-color: rgb(245, 65, 75);
+    border-bottom: 3px solid rgb(196, 33, 43);
 }
 
 .rsvpButton:active {
