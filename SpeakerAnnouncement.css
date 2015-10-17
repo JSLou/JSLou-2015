@@ -25,9 +25,9 @@
 
 .rsvpButton {
     background-color: rgb(196, 33, 43);
-    color: white;
+    color: white !important;
     border-radius: 10px;
-    text-decoration: none;
+    text-decoration: none !important;
     padding: 5px 12px 8px 12px;
     border-bottom: 3px solid rgb(99, 3, 6);
     position: relative;
