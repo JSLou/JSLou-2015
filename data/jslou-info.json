@@ -1,0 +1,18 @@
+{
+  "h1": "JSLou - Louisville Kentucky's JavaScript Group",
+  "email": "jslouky@gmail.com",
+  "social": [
+    {
+      "title": "Twitter",
+      "url": "https://twitter.com/jslouky"
+    },
+    {
+      "title": "Github",
+      "url": "https://github.com/JSLou"
+    },
+    {
+      "title": "YoutTube",
+      "url": "https://www.youtube.com/channel/UCikdmjOuFOJ7vm5ka0s1lfQ"
+    }
+  ]
+}

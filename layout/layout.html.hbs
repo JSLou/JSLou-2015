@@ -18,19 +18,21 @@
 	</div>
 
 	<footer>
-		<div>
-			JSLou<br>
-			Louisville Kentucky
-		</div>
-		<div>
-			Contact us<br>
-			<a href="mailto:jslouky@gmail.com">jslouky@gmail.com</a><br>
-		</div>
-		<div>
-			Follow us<br>
-			<a target="_blank" href="https://twitter.com/jslouky">Twitter</a><br>
-			<a target="_blank" href="https://github.com/JSLou">GitHub</a><br>
-			<a target="_blank" href="https://www.youtube.com/channel/UCikdmjOuFOJ7vm5ka0s1lfQ">Youtube</a>
+		<div class="footer-inner">
+			<div>
+				JSLou<br>
+				Louisville Kentucky
+			</div>
+			<div>
+				Contact us<br>
+				<a href="mailto:{{jslou-info.email}}">{{jslou-info.email}}</a><br>
+			</div>
+			<div>
+				Follow us<br>
+				{{#each jslou-info.social}}
+					{{> link}}<br/>
+				{{/each}}
+			</div>
 		</div>
 	</footer>
 
