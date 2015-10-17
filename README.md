@@ -1,10 +1,16 @@
-# JSLou Speaker Announcement
+# JSLou website 2015
 
 
-HTML/CSS template for announcing who is speaking at the next JSLou Learn Night.
+Building
+--------
+This uses the [unfold static site generator](https://github.com/ericlathrop/unfold).
 
-### Todo list:
+To build:
+ 1. Install [node.js](http://nodejs.org/)
+ 2. Run `npm install -g unfold`
+ 3. Run `unfold site.json`
 
-
-* Make via studio text a link to directions
-* setup a build phase for adding to wordpress site (Alex)
+To view locally:
+ 1. Run `npm install -g node-static`
+ 2. Run `static out`
+ 3. Point your web browser at [http://localhost:8080](http://localhost:8080)
