@@ -1,11 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300);
 
+.events{
+  display: flex;
+  flex-direction: column;
+}
 
 .speakerAnnouncement {
     background: black;
     color: white;
     font-family: "Open Sans", helvetica, arial, verdana, sans-serif;
     padding: 20px;
+    display:block;
+    margin-bottom: 20px;
 }
 
 .row1 {

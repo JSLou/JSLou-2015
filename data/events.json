@@ -1,0 +1,29 @@
+[
+    {
+        "firstName": "CLAYTON",
+        "lastName": "HUNT",
+        "day": "Wednesday",
+        "date": "2015-10-21",
+        "time": "7pm",
+        "directions": "https://www.google.com/maps/place/VIA+Studio/@38.252457,-85.739881,17z/data=!3m1!4b1!4m2!3m1!1s0x886972dec5cc9407:0xb6df1269286cc200?hl=en",
+        "location": "Via Studio",
+        "photo": "http://jslou.org/wp-content/uploads/2015/10/clayton-hunt.jpg",
+        "photoAlt": "Clayton Hunt JavaScript developer Louisville, KY October 21, 2015",
+        "youtubeName": "Clayton Hunt",
+        "youtubeUrl": "https://www.youtube.com/channel/UCn8Y8pew1pzQfBFKubfWL9A",
+        "twitterName": "ClaytonHunt_104",
+        "title": "Making 'this' Go Away",
+        "description": "Would you like to never again be bothered by 'this'? Learn the pitfalls of JavaScript's 'this' keyword and the ways to avoid the problem. Then, master 'this' by bending it to your will with the dark arts of call, apply, and bind."
+    },
+    {
+        "day": "Wednesday",
+        "date": "2015-11-04",
+        "time": "7pm",
+        "directions": "https://www.google.com/maps?f=q&hl=en&q=204+South+Floyd+Street,+Louisville,+KY,+us",
+        "location": "iHub",
+        "photo": "http://photos3.meetupstatic.com/photos/event/3/d/7/4/global_395715732.jpeg",
+        "photoAlt": "JSLou JavaScript Hack Night",
+        "title": "JSLou JavaScript Hack Night",
+        "description": "Come hang out, chat, and work on anything JavaScript related!"
+    }
+]
