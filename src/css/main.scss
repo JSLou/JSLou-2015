@@ -5,3 +5,13 @@
 @import"flexslider";
 @import"footer";
 @import"event";
+
+.logo{
+  margin: 10px auto 0 auto;
+  display: block;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}

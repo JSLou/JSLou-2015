@@ -21,7 +21,7 @@
         "time": "7pm",
         "directions": "https://www.google.com/maps?f=q&hl=en&q=204+South+Floyd+Street,+Louisville,+KY,+us",
         "location": "iHub",
-        "photo": "http://photos3.meetupstatic.com/photos/event/3/d/7/4/global_395715732.jpeg",
+        "photo": "img/hack-night-logo.png",
         "photoAlt": "JSLou JavaScript Hack Night",
         "title": "JSLou JavaScript Hack Night",
         "description": "Come hang out, chat, and work on anything JavaScript related!"
