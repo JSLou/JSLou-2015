@@ -2,77 +2,96 @@
 
 .events{
   display: flex;
-
+  max-width: $max-width;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .speakerAnnouncement {
-    background: black;
-    color: white;
-    font-family: "Open Sans", helvetica, arial, verdana, sans-serif;
-    padding: 20px;
-    display:block;
-    margin: 20px;
-    width: 50%;
-}
+  background: black;
+  color: white;
+  font-family: "Open Sans", helvetica, arial, verdana, sans-serif;
 
-.row1 {
-    display: flex;
-    flex-direction: row;
-}
-
-@media (max-width: 500px) {
-  .row1 {
-      flex-direction: column;
+  @include bp(baby-bear) {
+    margin: 5px 0;
+    width: 100%;
+  }
+  @include bp(mama-bear) {
+    margin: 10px;
+    width: 100%;
+  }
+  @include bp(papa-bear) {
+    margin: 10px;
+    width: 47%;
   }
 }
+
+
+.row1 {
+  padding: 5px 10px;
+    display: flex;
+    @include bp(baby-bear) {
+      flex-direction: column;
+    }
+    @include bp(mama-bear) {
+      flex-direction: row;
+    }
+    @include bp(papa-bear) {
+      flex-direction: row;
+    }
+}
+
+
 .redLink{
-  color: rgb(196, 33, 43);
+  color: $red;
   text-decoration: none;
-}
-
-.rsvpButton {
-    background-color: rgb(196, 33, 43);
-    color: white !important;
-    border-radius: 10px;
-    text-decoration: none !important;
-    padding: 5px 12px 8px 12px;
-    border-bottom: 3px solid rgb(99, 3, 6);
-    position: relative;
-    white-space:nowrap;
-}
-
-.rsvpButton:hover {
-    background-color: rgb(245, 65, 75);
-    border-bottom: 3px solid rgb(196, 33, 43);
-}
-
-.rsvpButton:active {
-    background-color: rgb(99, 3, 6);
-    top: 3px;
-    border-bottom: 0;
+  margin-left: 6px;
+  &:hover{
+    color: lighten($red, 10%);
+    text-decoration: underline;
+  }
+  &:active{
+    color: darken($red, 10%);
+    text-decoration: underline;
+  }
 }
 
 .leftSide {
     position: relative;
-
+    margin-right: 36px;
 }
 
 .leftSide .bioPicContainer {
-    width: 282px;
-    margin: 10px;
     position: relative;
-}
-
-@media (max-width: 500px) {
-  .leftSide .bioPicContainer {
+    @include bp(baby-bear) {
       margin: 0 auto;
-  }
+      width: 282px;
+    }
+    @include bp(mama-bear) {
+      margin: 10px;
+      width: 150px;
+    }
+    @include bp(papa-bear) {
+      margin: 10px;
+      width: 200px;
+    }
 }
 
 .leftSide .bioPic {
-    width: 250px;
-    left: 16px;
-    position: relative;
+  position: relative;
+    @include bp(baby-bear) {
+      width: 282px;
+    }
+    @include bp(mama-bear) {
+      left: 11px;
+      width: 150px;
+    }
+    @include bp(papa-bear) {
+      left: 14px;
+      width: 200px;
+    }
 }
 
 .leftSide .brackets {
@@ -80,21 +99,55 @@
     display: block;
     top: 0;
     left: 0;
+    @include bp(baby-bear) {
+      width: 282px;
+    }
+    @include bp(mama-bear) {
+      width: 169px;
+    }
+    @include bp(papa-bear) {
+      width: 226px;
+    }
 }
 
 .rightSide {
+  text-align: left;
     padding: 10px;
 }
 
 .speakerAnnouncement .row1 h2 {
     font-family: "Yanone Kaffeesatz", helvetica, arial, verdana, sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     letter-spacing: 2;
     font-weight: 100;
     font-kerning: auto;
     margin-bottom: 10px;
     line-height: 2.7rem;
     text-transform: uppercase;
+}
+
+.speakerAnnouncement .row2{
+  padding: 5px 10px;
+  background-color: darken($grey, 12%);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  h2{
+    font-size: 1.2rem;
+    margin: 5px 0 0 0;
+  }
+  p{
+    margin: 10px 8px;
+  }
+  .links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    div{
+      width: 25%;
+      padding: 3px;
+    }
+  }
 }
 
 .speakerAnnouncement .row2 a {

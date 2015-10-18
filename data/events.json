@@ -7,11 +7,20 @@
         "time": "7pm",
         "directions": "https://www.google.com/maps/place/VIA+Studio/@38.252457,-85.739881,17z/data=!3m1!4b1!4m2!3m1!1s0x886972dec5cc9407:0xb6df1269286cc200?hl=en",
         "location": "Via Studio",
-        "photo": "http://jslou.org/wp-content/uploads/2015/10/clayton-hunt.jpg",
+        "photo": "img/speakers/clayton-hunt.jpg",
         "photoAlt": "Clayton Hunt JavaScript developer Louisville, KY October 21, 2015",
-        "youtubeName": "Clayton Hunt",
-        "youtubeUrl": "https://www.youtube.com/channel/UCn8Y8pew1pzQfBFKubfWL9A",
-        "twitterName": "ClaytonHunt_104",
+        "links": [
+            {
+                "type": "Twitter",
+                "text": "ClaytonHunt_104",
+                "url": "https://twitter.com/ClaytonHunt_104"
+            },
+            {
+                "type": "YouTube",
+                "text": "Programming From Scratch",
+                "url": "https://www.youtube.com/channel/UCn8Y8pew1pzQfBFKubfWL9A"
+            }
+        ],
         "title": "Making 'this' Go Away",
         "description": "Would you like to never again be bothered by 'this'? Learn the pitfalls of JavaScript's 'this' keyword and the ways to avoid the problem. Then, master 'this' by bending it to your will with the dark arts of call, apply, and bind."
     },
@@ -25,5 +34,242 @@
         "photoAlt": "JSLou JavaScript Hack Night",
         "title": "JSLou JavaScript Hack Night",
         "description": "Come hang out, chat, and work on anything JavaScript related!"
+    },
+    {
+        "firstName": "Craig",
+        "lastName": "Clemons",
+        "day": "Wednesday",
+        "date": "2015-09-16",
+        "time": "7pm",
+        "directions": "https://www.google.com/maps/place/VIA+Studio/@38.252457,-85.739881,17z/data=!3m1!4b1!4m2!3m1!1s0x886972dec5cc9407:0xb6df1269286cc200?hl=en",
+        "location": "Via Studio",
+        "photo": "img/speakers/craig-clemons.jpg",
+        "photoAlt": "Craig Clemons JavaScript developer Louisville",
+        "links": [
+            {
+                "type": "LinkedIn",
+                "text": "Craig Clemons",
+                "url": "https://www.linkedin.com/pub/craig-clemons/71/a6/81a"
+            },
+            {
+                "type": "Email",
+                "text": "engrclemons@gmail.com",
+                "url": "mailto:engrclemons@gmail.com"
+            }
+        ],
+        "title": "Functional Concepts in Javascript",
+        "description": "Introduction to functional concepts in javascript using map,reduce and filter"
+    },
+    {
+        "firstName": "Matthew",
+        "lastName": "Phillips",
+        "day": "Wednesday",
+        "date": "2015-05-20",
+        "time": "7pm",
+        "directions": "https://www.google.com/maps/place/VIA+Studio/@38.252457,-85.739881,17z/data=!3m1!4b1!4m2!3m1!1s0x886972dec5cc9407:0xb6df1269286cc200?hl=en",
+        "location": "Via Studio",
+        "photo": "img/speakers/matthew-phillips.jpg",
+        "photoAlt": "Matthew Phillips JavaScript developer Louisville, KY",
+        "links": [
+            {
+                "text": "matthewphillips.info",
+                "url": "http://t.co/NrQssuyyIF",
+                "type": "Website"
+            },
+            {
+                "text": "matthewp",
+                "url": "https://twitter.com/matthewcp",
+                "type": "Twitter"
+            },
+            {
+                "text": "matthewp",
+                "url": "https://github.com/matthewp",
+                "type": "GitHub"
+            },
+            {
+                "text": "matthew@matthewphillips.info",
+                "url": "mailto:matthew@matthewphillips.info",
+                "type": "Email"
+            }
+        ],
+        "title": "Modules in the Browser: Finally",
+        "description": "ECMAScript 6, the upcoming new standard for JavaScript, includes modules for the first time. We’ll go over the history of using modules in the browser, from simple script tags, to module loaders like RequireJS and Browserify, and then look at the upcoming Loader standard and how you can hack it to provide additional capabilities to your workflow.",
+        "home": "Louisville, Kentucky",
+        "bio": "Matthew is a JavaScript Engineer with Bitovi and an enthusiast of open-standards and the web. His current passion is web modules, which he works on in StealJS and StealTools. When not obsessing over code, Matthew likes to relax by going kayaking and hiking, and dreaming of his future beach-side home."
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Yared",
+        "day": "Wednesday",
+        "date": "2015-04-15",
+        "time": "7pm",
+        "directions": "https://www.google.com/maps/place/VIA+Studio/@38.252457,-85.739881,17z/data=!3m1!4b1!4m2!3m1!1s0x886972dec5cc9407:0xb6df1269286cc200?hl=en",
+        "location": "Via Studio",
+        "photo": "img/speakers/michael-yared.jpg",
+        "photoAlt": "Michael Yared JavaScript developer Louisville, KY",
+        "links": [
+            {
+                "text": "echobind.com",
+                "url": "http://echobind.com/",
+                "type": "Website"
+            },
+            {
+                "text": "michaelyared",
+                "url": "https://twitter.com/michaelyared",
+                "type": "Twitter"
+            },
+            {
+                "text": "myared",
+                "url": "https://github.com/myared",
+                "type": "GitHub"
+            }
+        ],
+        "title": "Intro to Ember and Ember CLI",
+        "description": "",
+        "home": "Louisville, Kentucky",
+        "bio": "Ruby / Rails / Ember / JavaScript developer for healthcare & scientific companies. Husband & dad who enjoys traveling, being outside, startups & yellow labs."
+    },
+    {
+        "firstName": "Ed",
+        "lastName": "Charbeneau",
+        "day": "Wednesday",
+        "date": "2014-05-14",
+        "time": "7pm",
+        "directions": "https://www.google.com/maps/place/velocity+indiana/data=!4m2!3m1!1s0x0:0xd7302d22d4740a30?sa=X&ved=0CCQQrwswAGoVChMI0J_uvazKyAIVRsuACh0ypwO3",
+        "location": "Velocity Indiana",
+        "photo": "img/speakers/ed-charbeneau.jpg",
+        "photoAlt": "Ed Charbeneau JavaScript developer Louisville, KY",
+        "links": [
+            {
+                "text": "about.me/edcharbeneau",
+                "url": "https://about.me/edcharbeneau",
+                "type": "Website"
+            },
+            {
+                "text": "EdCharbeneau",
+                "url": "https://twitter.com/EdCharbeneau",
+                "type": "Twitter"
+            }
+        ],
+        "title": "",
+        "description": "",
+        "home": "Louisville, Kentucky",
+        "bio": ""
+    },
+    {
+        "firstName": "Matt",
+        "lastName": "Tannahill",
+        "day": "Wednesday",
+        "date": "2014-05-14",
+        "time": "7pm",
+        "directions": "https://www.google.com/maps/place/VIA+Studio/@38.252457,-85.739881,17z/data=!3m1!4b1!4m2!3m1!1s0x886972dec5cc9407:0xb6df1269286cc200?hl=en",
+        "location": "Via Studio",
+        "photo": "img/speakers/matt-tannahill.png",
+        "photoAlt": "Matt Tannahill JavaScript developer Louisville, KY",
+        "links": [
+            {
+                "text": "MattTannahill",
+                "url": "https://twitter.com/MattTannahill",
+                "type": "Twitter"
+            }
+        ],
+        "title": "",
+        "description": "",
+        "home": "Louisville, Kentucky",
+        "bio": ""
+    },
+    {
+        "firstName": "William",
+        "lastName": "Burke",
+        "day": "Wednesday",
+        "date": "2014-04-15",
+        "time": "7pm",
+        "directions": "",
+        "location": "LVL1 Hackerspace",
+        "photo": "img/speakers/william-burke.jpg",
+        "photoAlt": "William burke JavaScript developer Louisville, KY",
+        "links": [
+            {
+                "text": "billstron.com",
+                "url": "http://billstron.com/",
+                "type": "Website"
+            },
+            {
+                "text": "billstron",
+                "url": "https://twitter.com/billstron",
+                "type": "Twitter"
+            },
+            {
+                "text": "billstron",
+                "url": "https://github.com/billstron",
+                "type": "GitHub"
+            }
+        ],
+        "title": "Intro to Node.js",
+        "description": "",
+        "home": "Louisville, Kentucky",
+        "bio": ""
+    },
+    {
+        "firstName": "Thomas Neirynck &",
+        "lastName": "Dannie Gregoire",
+        "day": "Wednesday",
+        "date": "2014-03-20",
+        "time": "7pm",
+        "directions": "",
+        "location": "LVL1 Hackerspace",
+        "photo": "img/hack-night-logo.png",
+        "photoAlt": "Thomas Neirynck &  JavaScript developer Louisville, KY",
+        "links": [
+            {
+                "text": "dgregoire",
+                "url": "https://twitter.com/dgregoire",
+                "type": "Twitter(Dannie)"
+            }
+        ],
+        "title": "Leaflet & Greasemonkey",
+        "description": "'A developer API for adding maps to a web app.' and 'Extending enterprise applications with javascript and Greasemonkey.'",
+        "home": "Louisville, Kentucky",
+        "bio": ""
+    },
+    {
+        "day": "Wednesday",
+        "date": "2014-03-05",
+        "time": "7pm",
+        "directions": "https://www.google.com/maps?f=q&hl=en&q=204+South+Floyd+Street,+Louisville,+KY,+us",
+        "location": "iHub",
+        "photo": "img/hack-night-logo.png",
+        "photoAlt": "JSLou JavaScript Hack Night",
+        "title": "JSLou JavaScript Hack Night",
+        "description": "Come hang out, chat, and work on anything JavaScript related!"
+    },
+    {
+        "firstName": "Eric",
+        "lastName": "Lathrop",
+        "day": "Wednesday",
+        "date": "2014-01-16",
+        "time": "7pm",
+        "directions": "",
+        "location": "LVL1 Hackerspace",
+        "photo": "img/speakers/eric-lathrop.jpg",
+        "photoAlt": "Eric Lathrop JavaScript developer Louisville, KY",
+        "links": [
+            {
+                "url": "http://ericlathrop.com/",
+                "type": "Website"
+            },
+            {
+                "url": "https://twitter.com/ericlathrop",
+                "type": "Twitter"
+            },
+            {
+                "url": "https://github.com/ericlathrop",
+                "type": "GitHub"
+            }
+        ],
+        "title": "HTML5 Canvas / Javascript for cross platform browser games",
+        "description": "",
+        "home": "Louisville, Kentucky",
+        "bio": ""
     }
 ]

@@ -13,43 +13,20 @@
 						<h2>{{title}}</h2>
 					{{/if}}
             <p>{{day}} {{date}}</br>
-            {{time}} at <a class="redLink" href="{{directions}}"="_blank">{{location}}</a> </p>
-            <a href="http://www.meetup.com/JSLouKY/" class="rsvpButton" target="_blank">RSVP on Meetup.com</a>
+            {{time}} at <a class="redLink" href="{{directions}}"="_blank"><i class="fa fa-map-marker"></i> {{location}}</a> </p>
+            <a href="http://www.meetup.com/JSLouKY/" class="btn" target="_blank">RSVP on Meetup.com</a>
         </div>
     </div>
     <div class="row2">
-        <ul>
-					{{#if youtubeName}}
-            <li>
-                <strong>YouTube:</strong>
-                <a href="{{youtubeUrl}}" target="_blank">{{youtubeName}}</a>
-            </li>
+        <div class="links">
+						{{#if links}}
+              {{#each links}}
+                <div>
+                  <a href="{{url}}" target="_blank">{{type}}</a>
+                </div>
+              {{/each}}
 						{{/if}}
-						{{#if twitter}}
-            <li>
-                <strong>Twitter:</strong>
-                <a href="https://twitter.com/{{twitter}}" target="_blank">@{{twitter}}</a>
-            </li>
-						{{/if}}
-						{{#if websiteName}}
-            <li>
-                <strong>Website:</strong>
-                <a href="{{websiteurl}}" target="_blank">{{websiteName}}</a>
-            </li>
-						{{/if}}
-						{{#if linkedinName}}
-            <li>
-                <strong>LinkedIn:</strong>
-                <a href="{{linkedinUrl}}" target="_blank">{{linkedinName}}</a>
-            </li>
-						{{/if}}
-						{{#if githubName}}
-            <li>
-                <strong>GitHub:</strong>
-                <a href="{{githubUrl}}" target="_blank">{{githubName}}</a>
-            </li>
-						{{/if}}
-        </ul>
+        </div>
 				{{#if firstName}}
 					<h2>{{title}}</h2>
 				{{/if}}
