@@ -9,32 +9,33 @@
 	<link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-	<header>
-	<img class="logo" src="img/logo-2015.png" alt="JSLou - Louisville Kentucky's JavaScript group"/>
-	</header>
+	<div id="wrapper">
+		<header>
+			<img class="logo" src="img/logo-2015.png" alt="JSLou - Louisville Kentucky's JavaScript group"/>
+		</header>
 
-	<div id="content">
-	{{> body}}
-	</div>
-
-	<footer>
-		<div class="footer-inner">
-			<div>
-				JSLou<br>
-				Louisville Kentucky
-			</div>
-			<div>
-				Contact us<br>
-				<a href="mailto:{{jslou-info.email}}">{{jslou-info.email}}</a><br>
-			</div>
-			<div>
-				Follow us<br>
-				{{#each jslou-info.social}}
-					{{> link}}<br/>
-				{{/each}}
-			</div>
+		<div id="content">
+			{{> body}}
 		</div>
-	</footer>
 
+		<footer>
+			<div class="footer-inner">
+				<div>
+					JSLou<br>
+					Louisville Kentucky
+				</div>
+				<div>
+					Contact us<br>
+					<a href="mailto:{{jslou-info.email}}">{{jslou-info.email}}</a><br>
+				</div>
+				<div>
+					Follow us<br>
+					{{#each jslou-info.social}}
+					{{> link}}<br/>
+					{{/each}}
+				</div>
+			</div>
+		</footer>
+	</div>
 </body>
 </html>

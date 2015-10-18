@@ -12,3 +12,42 @@ html{
 .center-inside{
   text-align: center;
 }
+
+.redLink{
+  color: $red;
+  text-decoration: none;
+  i{
+      margin:0 1px 0 4px;
+  }
+
+  &:hover{
+    color: lighten($red, 10%);
+    text-decoration: underline;
+  }
+  &:active{
+    color: darken($red, 10%);
+    text-decoration: underline;
+  }
+}
+
+.textBlock{
+  h2{
+    font-family: "Yanone Kaffeesatz", helvetica, arial, verdana, sans-serif;
+    font-size: 2rem;
+    letter-spacing: 2;
+    font-weight: 100;
+    font-kerning: auto;
+    margin-bottom: 10px;
+    line-height: 2.7rem;
+    text-transform: uppercase;
+  }
+  a{
+    @extend .redLink;
+  }
+  ul{
+    padding: 0;
+    li{
+      margin: 14px 0;
+    }
+  }
+}

@@ -12,7 +12,6 @@
 .speakerAnnouncement {
   background: black;
   color: white;
-  font-family: "Open Sans", helvetica, arial, verdana, sans-serif;
 
   @include bp(baby-bear) {
     margin: 5px 0;
@@ -44,19 +43,7 @@
 }
 
 
-.redLink{
-  color: $red;
-  text-decoration: none;
-  margin-left: 6px;
-  &:hover{
-    color: lighten($red, 10%);
-    text-decoration: underline;
-  }
-  &:active{
-    color: darken($red, 10%);
-    text-decoration: underline;
-  }
-}
+
 
 .leftSide {
     position: relative;

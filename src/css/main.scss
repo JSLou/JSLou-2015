@@ -1,10 +1,12 @@
 @import"colors";
+@import"buttons";
 @import"breakpoints";
 @import"structure";
 @import"typography";
 @import"flexslider";
 @import"footer";
 @import"event";
+@import"topics";
 
 .logo{
   margin: 10px auto 0 auto;
@@ -14,27 +16,16 @@
 }
 
 body{
+  font-family: "Open Sans", helvetica, arial, verdana, sans-serif;
+  letter-spacing: .09rem;
+  font-weight: 100;
   display: flex;
   flex-direction: column;
   width: 100vw;
   height: 100vh;
 }
 
-.btn{
-  text-decoration: none;
-  padding: 8px 16px;
-  border-radius: 4px;
-  border: 1px solid white;
-  background: transparent;
-  color: white;
-  display: block;
-  text-align: center;
-  margin: 0 4px 8px 0;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  transition: all 0.2s;
-  &:hover{
-    background: white;
-    color: black;
-  }
+
+h3{
+  font-weight: 200;
 }

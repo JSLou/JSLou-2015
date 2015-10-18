@@ -1,0 +1,18 @@
+.btn{
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  display: block;
+  text-align: center;
+  margin: 0 4px 8px 0;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  &:hover{
+    background: white;
+    color: black;
+  }
+}
