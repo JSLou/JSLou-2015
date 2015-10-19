@@ -1,18 +1,42 @@
 {
-  "h1": "JSLou - Louisville Kentucky's JavaScript Group",
-  "email": "jslouky@gmail.com",
-  "social": [
-    {
-      "title": "Twitter",
-      "url": "https://twitter.com/jslouky"
-    },
-    {
-      "title": "Github",
-      "url": "https://github.com/JSLou"
-    },
-    {
-      "title": "YoutTube",
-      "url": "https://www.youtube.com/channel/UCikdmjOuFOJ7vm5ka0s1lfQ"
-    }
-  ]
+    "h1": "JSLou - Louisville Kentucky's JavaScript Group",
+    "email": "jslouky@gmail.com",
+    "social": [
+        {
+            "title": "Twitter",
+            "url": "https://twitter.com/jslouky"
+        },
+        {
+            "title": "Github",
+            "url": "https://github.com/JSLou"
+        },
+        {
+            "title": "YoutTube",
+            "url": "https://www.youtube.com/channel/UCikdmjOuFOJ7vm5ka0s1lfQ"
+        }
+    ],
+    "pages": [
+        {
+            "url": "index.html",
+            "title": "Home"
+        },
+        {
+            "url": "past-events.html",
+            "title": "Past Events"
+        },
+        {
+            "url": "about.html",
+            "title": "About"
+        },
+        {
+            "url": "http://slackin.louisville.io/",
+            "title": "Join Slack Channel",
+            "targetBlank": true
+        },
+        {
+            "url": "https://www.google.com/calendar/embed?src=jslouky@gmail.com",
+            "title": "Calendar",
+            "targetBlank": true
+        }
+    ]
 }

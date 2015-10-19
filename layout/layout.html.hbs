@@ -11,10 +11,9 @@
 <body>
 	<nav>
 		<div class="row">
-			<a class="col1-4" href="index.html">Home</a>
-			<a class="col1-4" href="past-events.html">Past Events</a>
-			<a class="col1-4" href="about.html">About</a>
-			<a class="col1-4" href="https://www.google.com/calendar/embed?src=jslouky@gmail.com" target="_blank">Calendar</a>
+			{{#each jslou-info.pages}}
+				{{> navitem}}
+			{{/each}}
 		</div>
 	</nav>
 
@@ -42,10 +41,9 @@
 				<div class="module">
 					<strong>Sitemap</strong>
 					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="past-events.html">Past Events</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="https://www.google.com/calendar/embed?src=jslouky@gmail.com" target="_blank">Calendar</a></li>
+						{{#each jslou-info.pages}}
+							<li>{{> link}}</li>
+						{{/each}}
 					</ul>
 				</div>
 			</div>
