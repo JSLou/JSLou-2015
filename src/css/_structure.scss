@@ -1,10 +1,10 @@
 
 body{
-padding: 0px;
-margin: 0px;
-display: flex;
-min-height: 100vh;
-  }
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  min-height: 100vh;
+}
 
 * {
   -webkit-box-sizing: border-box;
@@ -30,37 +30,13 @@ $max-width: 1200px;
   padding: 10px;
 }
 
-body,
-#wrapper {
+#wrapper{
   margin: 0 auto;
   width: 100%;
   max-width: $max-width;
-}
-
-#wrapper{
-  margin: 0 auto;
   background: rgba(255,255,255,0.1);
-
-  @include bp(papa-bear) {
-  width: 80%;
-  }
-
-  @include bp(mama-bear) {
-  width: 100%;
-  }
-
-  @include bp(baby-bear) {
-  min-width: 370px;
-  max-width: 100%;
-  }
-
-}
-
-#content{
-
-
 }
 
 .textBlock{
-    padding: 0 25px;
+  padding: 0 25px;
 }

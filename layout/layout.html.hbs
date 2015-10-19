@@ -21,18 +21,28 @@
 		<footer>
 			<div class="footer-inner">
 				<div>
-					JSLou<br>
+					JSLou<br/>
 					Louisville Kentucky
 				</div>
 				<div>
-					Contact us<br>
-					<a href="mailto:{{jslou-info.email}}">{{jslou-info.email}}</a><br>
+					Sitemap<br/>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="past-events.html">Past Events</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="https://www.google.com/calendar/embed?src=jslouky@gmail.com" target="_blank">Calendar</a></li>
+					</ul>
+				</div>
+
+				<div>
+					Follow us<br/>
+					{{#each jslou-info.social}}
+						{{> link}}<br/>
+					{{/each}}
 				</div>
 				<div>
-					Follow us<br>
-					{{#each jslou-info.social}}
-					{{> link}}<br/>
-					{{/each}}
+					Contact us<br/>
+					<a href="mailto:{{jslou-info.email}}">{{jslou-info.email}}</a><br>
 				</div>
 			</div>
 		</footer>

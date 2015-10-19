@@ -30,87 +30,93 @@
 
 .row1 {
   padding: 5px 10px;
-    display: flex;
-    @include bp(baby-bear) {
-      flex-direction: column;
-    }
-    @include bp(mama-bear) {
-      flex-direction: row;
-    }
-    @include bp(papa-bear) {
-      flex-direction: row;
-    }
+  display: flex;
+  @include bp(baby-bear) {
+    flex-direction: column;
+  }
+  @include bp(mama-bear) {
+    flex-direction: row;
+  }
+  @include bp(papa-bear) {
+    flex-direction: row;
+  }
 }
 
-
-
-
 .leftSide {
-    position: relative;
-    margin-right: 36px;
+  position: relative;
+  margin-right: 36px;
 }
 
 .leftSide .bioPicContainer {
-    position: relative;
-    @include bp(baby-bear) {
-      margin: 0 auto;
-      width: 282px;
-    }
-    @include bp(mama-bear) {
-      margin: 10px;
-      width: 150px;
-    }
-    @include bp(papa-bear) {
-      margin: 10px;
-      width: 200px;
-    }
+  position: relative;
+  @include bp(baby-bear) {
+    margin: 10px auto 0 auto;
+    width: 282px;
+  }
+  @include bp(mama-bear) {
+    margin: 10px;
+    width: 150px;
+  }
+  @include bp(papa-bear) {
+    margin: 10px;
+    width: 200px;
+  }
 }
 
 .leftSide .bioPic {
   position: relative;
-    @include bp(baby-bear) {
-      width: 282px;
-    }
-    @include bp(mama-bear) {
-      left: 11px;
-      width: 150px;
-    }
-    @include bp(papa-bear) {
-      left: 14px;
-      width: 200px;
-    }
+  @include bp(baby-bear) {
+    width: 250px;
+  }
+  @include bp(mama-bear) {
+    left: 11px;
+    width: 150px;
+  }
+  @include bp(papa-bear) {
+    left: 14px;
+    width: 200px;
+  }
 }
 
 .leftSide .brackets {
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 0;
-    @include bp(baby-bear) {
-      width: 282px;
-    }
-    @include bp(mama-bear) {
-      width: 169px;
-    }
-    @include bp(papa-bear) {
-      width: 226px;
-    }
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  @include bp(baby-bear) {
+    width: 282px;
+  }
+  @include bp(mama-bear) {
+    width: 169px;
+  }
+  @include bp(papa-bear) {
+    width: 226px;
+  }
 }
 
 .rightSide {
   text-align: left;
-    padding: 10px;
+  padding: 10px;
 }
 
 .speakerAnnouncement .row1 h2 {
-    font-family: "Yanone Kaffeesatz", helvetica, arial, verdana, sans-serif;
-    font-size: 2rem;
-    letter-spacing: 2;
-    font-weight: 100;
-    font-kerning: auto;
-    margin-bottom: 10px;
-    line-height: 2.7rem;
-    text-transform: uppercase;
+  font-family: "Yanone Kaffeesatz", helvetica, arial, verdana, sans-serif;
+  font-size: 2rem;
+  letter-spacing: 2;
+  font-weight: 100;
+  //font-kerning: auto;
+  margin-bottom: 10px;
+  line-height: 2.7rem;
+  text-transform: uppercase;
+}
+
+.lastName{
+  @include bp(mama-bear) {
+    display: block;
+  }
+  @include bp(papa-bear) {
+    display: block;
+  }
 }
 
 .speakerAnnouncement .row2{
@@ -138,15 +144,24 @@
 }
 
 .speakerAnnouncement .row2 a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .speakerAnnouncement .row2 ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .speakerAnnouncement .row2 strong {
-    color: rgb(196, 33, 43);
+  color: rgb(196, 33, 43);
+}
+
+
+.links{
+  a{
+    &:hover{
+      
+    }
+  }
 }
