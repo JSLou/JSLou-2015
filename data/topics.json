@@ -1,15 +1,35 @@
 [
     {
+        "title": "React.js",
+        "url": "https://facebook.github.io/react/"
+    },
+    {
+        "title": "React Native",
+        "url": "https://facebook.github.io/react-native/"
+    },
+    {
+        "title": "webpack",
+        "url": "https://webpack.github.io/"
+    },
+    {
+        "title": "Browserify",
+        "url": "http://browserify.org/"
+    },
+    {
+        "title": "SplatJS",
+        "url": "http://splatjs.github.io"
+    },
+    {
         "title": "HTML5"
     },
     {
         "title": "CSS3"
     },
     {
-        "title": "Front-end Javascript (Client-Side)"
+        "title": "Client-side Javascript"
     },
     {
-        "title": "Back-end Javascript (Server-Side)"
+        "title": "Server-side Javascript"
     },
     {
         "url": "https://www.codecademy.com/tracks/javascript",
