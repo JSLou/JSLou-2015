@@ -1,5 +1,6 @@
 [
     {
+        "future": true,
         "firstName": "CLAYTON",
         "lastName": "HUNT",
         "day": "Wednesday",
@@ -25,6 +26,8 @@
         "description": "Would you like to never again be bothered by 'this'? Learn the pitfalls of JavaScript's 'this' keyword and the ways to avoid the problem. Then, master 'this' by bending it to your will with the dark arts of call, apply, and bind."
     },
     {
+      "hidden": true,
+      "future": true,
         "day": "Wednesday",
         "date": "2015-11-04",
         "time": "7pm",

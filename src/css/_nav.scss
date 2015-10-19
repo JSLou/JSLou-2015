@@ -1,0 +1,13 @@
+nav{
+  background: $red;
+  color: white;
+  a{
+    text-decoration: none;
+    text-align: center; 
+    color: white;
+    padding: 6px 18px;
+    &:hover{
+      background: darken($red, 10%);
+    }
+  }
+}

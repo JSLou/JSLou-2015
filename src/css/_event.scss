@@ -1,30 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300);
 
-.events{
-  display: flex;
-  max-width: $max-width;
-  flex-direction: row;
-  flex-wrap: wrap;
-  text-align: center;
-  margin: 0 auto;
-}
+
 
 .speakerAnnouncement {
-  background: black;
-  color: white;
 
-  @include bp(baby-bear) {
-    margin: 5px 0;
-    width: 100%;
+  .module{
+    background: black;
+    color: white;
+    @include bp(baby-bear) {
+      margin: 5px 0;
+    }
+    @include bp(mama-bear) {
+      margin: 10px;
+    }
+    @include bp(papa-bear) {
+      margin: 10px;
+    }
   }
-  @include bp(mama-bear) {
-    margin: 10px;
-    width: 100%;
-  }
-  @include bp(papa-bear) {
-    margin: 10px;
-    width: 47%;
-  }
+
 }
 
 
@@ -161,7 +154,7 @@
 .links{
   a{
     &:hover{
-      
+
     }
   }
 }

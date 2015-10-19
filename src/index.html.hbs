@@ -1,10 +1,20 @@
+<div class="row">
+	<div class="col1-2">
 
-
-<section class="upcomingEvents">
-	<div class="events">
-		{{#each events}}
-			{{> event}}
-		{{/each}}
 	</div>
-	<a href="past-events.html">See past events</a>
-</div>
+</div><!-- /.row -->
+
+
+<div class="row">
+	<div class="col1-1">
+		<h3>Upcoming Events</h3>
+	</div>
+</div><!-- /.row -->
+
+<div class="row">
+	{{#each events}}
+			{{> event}}
+	{{/each}}
+</div><!-- /.row -->
+
+<a href="past-events.html">See past events</a>

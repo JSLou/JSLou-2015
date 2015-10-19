@@ -1,16 +1,13 @@
 footer{
   width: 100%;
   background: rgba(0,0,0,0.5);
-  .footer-inner{
-    background: rgba(0,0,0,0.5);
-    max-width: $max-width;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    div{
-      margin: 20px;
-    }
+  strong{
+    width: 100%;
+    display: block;
+    padding: 8px;
+    text-align: center;
+    background: black;
+    margin-bottom: 10px;
   }
   a{
     color: white;

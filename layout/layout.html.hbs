@@ -9,23 +9,38 @@
 	<link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
+	<nav>
+		<div class="row">
+			<a class="col1-4" href="index.html">Home</a>
+			<a class="col1-4" href="past-events.html">Past Events</a>
+			<a class="col1-4" href="about.html">About</a>
+			<a class="col1-4" href="https://www.google.com/calendar/embed?src=jslouky@gmail.com" target="_blank">Calendar</a>
+		</div>
+	</nav>
+
 	<div id="wrapper">
+
 		<header>
-			<img class="logo" src="img/logo-2015.png" alt="JSLou - Louisville Kentucky's JavaScript group"/>
+			<a href="index.html" title="Return home"><h1><img class="logo" src="img/logo-2015.png" alt="JSLou - Louisville Kentucky's JavaScript group"/></h1></a>
+			<h2>Louisville Kentucky's JavaScript Group</h2>
 		</header>
 
 		<div id="content">
 			{{> body}}
 		</div>
-
-		<footer>
-			<div class="footer-inner">
-				<div>
-					JSLou<br/>
-					Louisville Kentucky
+	</div><!-- /#wrapper -->
+	<footer>
+		<div class="row">
+			<div class="col1-4">
+				<div class="module">
+					<strong>JSLou</strong>
+					Louisville Kentucky<br/>
+					Established September 2013
 				</div>
-				<div>
-					Sitemap<br/>
+			</div>
+			<div class="col1-4">
+				<div class="module">
+					<strong>Sitemap</strong>
 					<ul>
 						<li><a href="index.html">Home</a></li>
 						<li><a href="past-events.html">Past Events</a></li>
@@ -33,19 +48,24 @@
 						<li><a href="https://www.google.com/calendar/embed?src=jslouky@gmail.com" target="_blank">Calendar</a></li>
 					</ul>
 				</div>
+			</div>
 
-				<div>
-					Follow us<br/>
+			<div class="col1-4">
+				<div class="module">
+					<strong>Follow us</strong>
 					{{#each jslou-info.social}}
-						{{> link}}<br/>
+					{{> link}}<br/>
 					{{/each}}
 				</div>
-				<div>
-					Contact us<br/>
+			</div>
+			<div class="col1-4">
+				<div class="module">
+					<strong>Contact us</strong>
 					<a href="mailto:{{jslou-info.email}}">{{jslou-info.email}}</a><br>
 				</div>
 			</div>
-		</footer>
-	</div>
+		</div>
+	</footer>
+
 </body>
 </html>

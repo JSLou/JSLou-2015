@@ -3,7 +3,14 @@ body{
   padding: 0px;
   margin: 0px;
 }
+
 $max-width: 1400px;
+
+#wrapper{
+  margin: 0 auto;
+  width: 100%;
+  max-width: $max-width;
+}
 
 * {
   -webkit-box-sizing: border-box;
@@ -11,37 +18,26 @@ $max-width: 1400px;
   box-sizing: border-box;
 }
 
-.row{
+.col{
   display: flex;
   flex-direction: column;
 }
+img.expand{
+  max-width: 100%;
+}
 
-//set your desired gutter here
-$col-gutter: 10px;
-$col-gutter-half: $col-gutter/2;
-
-.col{
-  @include bp(baby-bear) {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  @include bp(mama-bear) {
-    padding-left: $col-gutter-half;
-    padding-right: $col-gutter-half;
-  }
-  @include bp(papa-bear) {
-    padding-left: $col-gutter-half;
-    padding-right: $col-gutter-half;
-  }
-
-  img{
-    max-width: 100%;
-  }
+.row{
+  margin: 0 auto;
+  width: 100%;
+  max-width: $max-width;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .module{
-  margin-left: $col-gutter-half;
-  margin-right: $col-gutter-half;
+  padding: 10px;
+  flex: 1;
 }
 
 // Ridiculous fraction support!
@@ -66,13 +62,29 @@ $col-gutter-half: $col-gutter/2;
 .col5-10,
 .col5-10{
   @extend .col;
-  width: 50%;
+  @include bp(baby-bear) {
+    width: 100%
+  }
+  @include bp(mama-bear) {
+    width: 50%;
+  }
+  @include bp(papa-bear) {
+    width: 50%;
+  }
 }
 
 .col1-3,
 .col3-9{
   @extend .col;
-  width: 33.3333333333%;
+  @include bp(baby-bear) {
+    width: 100%
+  }
+  @include bp(mama-bear) {
+    width: 33.3333333333%;
+  }
+  @include bp(papa-bear) {
+    width: 33.3333333333%;
+  }
 }
 
 .col2-3,
