@@ -91,13 +91,29 @@ img.expand{
 .col4-6,
 .col6-9{
   @extend .col;
-  width: 66.6666666667%;
+  @include bp(baby-bear) {
+    width: 100%
+  }
+  @include bp(mama-bear) {
+    width: 66.6666666667%;
+  }
+  @include bp(papa-bear) {
+    width: 66.6666666667%;
+  }
 }
 
 .col1-4,
 .col2-8{
   @extend .col;
-  width: 25%;
+  @include bp(baby-bear) {
+    width: 100%
+  }
+  @include bp(mama-bear) {
+    width: 25%;
+  }
+  @include bp(papa-bear) {
+    width: 25%;
+  }
 }
 
 .col3-4{
