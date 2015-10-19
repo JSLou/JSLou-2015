@@ -119,18 +119,43 @@ img.expand{
 .col3-4{
   @extend .col;
   width: 75%;
+  @include bp(baby-bear) {
+    width: 100%
+  }
+  @include bp(mama-bear) {
+    width: 75%;
+  }
+  @include bp(papa-bear) {
+    width: 75%;
+  }
 }
 
 .col1-5,
 .col2-10{
   @extend .col;
-  width: 20%;
+  @include bp(baby-bear) {
+    width: 100%
+  }
+  @include bp(mama-bear) {
+    width: 20%;
+  }
+  @include bp(papa-bear) {
+    width: 20%;
+  }
 }
 
 .col4-5,
 .col8-10{
   @extend .col;
-  width: 80%;
+  @include bp(baby-bear) {
+    width: 100%
+  }
+  @include bp(mama-bear) {
+    width: 80%;
+  }
+  @include bp(papa-bear) {
+    width: 80%;
+  }
 }
 
 .col1-6{
