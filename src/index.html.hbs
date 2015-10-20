@@ -16,9 +16,13 @@
 </div><!-- /.row -->
 
 <div class="row">
-	{{#each events}}
-	{{> event}}
-	{{/each}}
+	{{#sortByDate events}}
+		{{#each this}}
+			{{#ifFuture date}}
+				{{> event}}
+			{{/ifFuture}}
+		{{/each}}
+	{{/sortByDate}}
 </div><!-- /.row -->
 
 <a class="pastEvents btn" href="past-events.html">View past events</a>

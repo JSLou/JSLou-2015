@@ -1,11 +1,16 @@
 <div class="row">
 	<div class="col1-1">
-		<h3>Past Events</h3>
+		<h3>Upcoming Events</h3>
 	</div>
 </div><!-- /.row -->
 
 <div class="row">
-	{{#each events}}
-			{{> pastevent}}
-	{{/each}}
+	{{#sortByDate events direction="descending"}}
+		{{#each this}}
+			{{#ifFuture date}}
+			{{else}}
+				{{> event}}
+			{{/ifFuture}}
+		{{/each}}
+	{{/sortByDate}}
 </div><!-- /.row -->

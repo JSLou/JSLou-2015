@@ -252,7 +252,7 @@
         "day": "Wednesday",
         "date": "2014-01-16",
         "time": "7pm",
-        "directions": "",
+        "directions": "http://lvl1.org",
         "location": "LVL1 Hackerspace",
         "photo": "img/speakers/eric-lathrop.jpg",
         "photoAlt": "Eric Lathrop JavaScript developer Louisville, KY",

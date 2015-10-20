@@ -11,17 +11,24 @@
 <body>
 	<nav>
 		<div class="row">
-			{{#each jslou-info.pages}}
-				{{> navitem}}
-			{{/each}}
+			 {{#each jslouinfo.pages}}
+				{{> navitem }}
+			 {{/each}}
 		</div>
 	</nav>
 
 	<div id="wrapper">
 
-		<header>
+		<header class="row">
+			<div class="col1-2">
 			<a href="index.html" title="Return home"><h1><img class="logo" src="img/logo-2015.png" alt="JSLou - Louisville Kentucky's JavaScript group"/></h1></a>
 			<h2>Louisville Kentucky's JavaScript Group</h2>
+		</div>
+
+			{{#sortByDate events direction="descending"}}
+				{{> event this.[0]}}
+			{{/sortByDate}}
+
 		</header>
 
 		<div id="content">
@@ -41,7 +48,7 @@
 				<div class="module">
 					<strong>Sitemap</strong>
 					<ul>
-						{{#each jslou-info.pages}}
+						{{#each jslouinfo.pages}}
 							<li>{{> link}}</li>
 						{{/each}}
 					</ul>
@@ -51,7 +58,7 @@
 			<div class="col1-4">
 				<div class="module">
 					<strong>Follow us</strong>
-					{{#each jslou-info.social}}
+					{{#each jslouinfo.social}}
 					{{> link}}<br/>
 					{{/each}}
 				</div>
@@ -59,7 +66,7 @@
 			<div class="col1-4">
 				<div class="module">
 					<strong>Contact us</strong>
-					<a href="mailto:{{jslou-info.email}}">{{jslou-info.email}}</a><br>
+					<a href="mailto:{{jslou-info.email}}">{{jslouinfo.email}}</a><br>
 					<a href="https://github.com/JSLou/JSLou-2015" contextmenu=""target="_blank">Fork me on GitHub</a>
 					<a class="lousivilleIoBadge" href="http://louisville.io" target="_blank"><img src="img/louisville-io-badge.svg" alt="Find other local tech events on Louisville.io"/></a>
 				</div>
