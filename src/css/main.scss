@@ -12,8 +12,12 @@
 .logo{
   margin: 10px auto 0 auto;
   display: block;
-  width: 100%;
-  max-width: 550px;
+  max-height: 270px;
+}
+header{
+  h2{
+    text-align: center;
+  }
 }
 
 body{

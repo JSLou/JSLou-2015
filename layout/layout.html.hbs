@@ -11,9 +11,9 @@
 <body>
 	<nav>
 		<div class="row">
-			 {{#each jslouinfo.pages}}
-				{{> navitem }}
-			 {{/each}}
+			{{#each jslouinfo.pages}}
+			{{> navitem }}
+			{{/each}}
 		</div>
 	</nav>
 
@@ -21,13 +21,13 @@
 
 		<header class="row">
 			<div class="col1-2">
-			<a href="index.html" title="Return home"><h1><img class="logo" src="img/logo-2015.png" alt="JSLou - Louisville Kentucky's JavaScript group"/></h1></a>
-			<h2>Louisville Kentucky's JavaScript Group</h2>
-		</div>
+				<a href="index.html" title="Return home"><h1><img class="logo" src="img/logo-2015.png" alt="JSLou - Louisville Kentucky's JavaScript group"/></h1></a>
+				<h2>Louisville Kentucky's JavaScript Group</h2>
+			</div>
 
-			{{#sortByDate events direction="descending"}}
-				{{> event this.[0]}}
-			{{/sortByDate}}
+			{{#nextUpcoming events}}
+			{{> event this.[0]}}
+			{{/nextUpcoming}}
 
 		</header>
 
@@ -49,7 +49,7 @@
 					<strong>Sitemap</strong>
 					<ul>
 						{{#each jslouinfo.pages}}
-							<li>{{> link}}</li>
+						<li>{{> link}}</li>
 						{{/each}}
 					</ul>
 				</div>
