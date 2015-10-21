@@ -6,5 +6,6 @@ module.exports = function(date, options){
 }
 
 function isFuture(date){
-  return Date.parse(date) > Date.now();
+  var nowMinusOneDay = Date.now() - 86400000
+  return Date.parse(date) > nowMinusOneDay;
 }

@@ -19,10 +19,18 @@
 .speakerAnnouncement {
 
   .module{
-    margin: 10px;
     background: black;
     color: white;
     padding: 0;
+    @include bp(baby-bear) {
+      margin: 10px 0;
+    }
+    @include bp(mama-bear) {
+      margin: 10px;
+    }
+    @include bp(papa-bear) {
+      margin: 10px;
+    }
   }
 
 }
@@ -46,13 +54,22 @@
 
 .leftSide {
   position: relative;
-  margin-right: 36px;
+  @include bp(baby-bear) {
+    padding: 10px 0 0 0;
+  }
+  @include bp(mama-bear) {
+    margin-right: 36px;
+  }
+  @include bp(papa-bear) {
+    margin-right: 36px;
+  }
 }
 
 .leftSide .bioPicContainer {
+  text-align: center;
   position: relative;
   @include bp(baby-bear) {
-    margin: 10px auto 0 auto;
+    margin: 0 auto;
     width: 282px;
   }
   @include bp(mama-bear) {
@@ -164,10 +181,13 @@ header{
   }
 }
 
-.links{
-  a{
-    &:hover{
+.speeakerlink{
 
+  a{
+    text-align: center;
+    &:hover{
+      background: white;
+      color: black;
     }
   }
 }

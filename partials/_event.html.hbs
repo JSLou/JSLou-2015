@@ -17,42 +17,17 @@
 				{{/if}}
 				<p>{{day}} {{date}}</br>
 					{{time}} at <a class="redLink" href="{{directions}}"="_blank">{{location}}</a> </p>
-						<a href="http://www.meetup.com/JSLouKY/" class="rsvpButton" target="_blank">{{#ifFuture date}}RSVP on Meetup.com{{else}}View event on Meetup.com{{/ifFuture}}</a>
+					{{#if meetup}}
+						<a href="{{meetup}}" class="btn" target="_blank">{{#ifFuture date}}RSVP on Meetup.com{{else}}View event on Meetup.com{{/ifFuture}}</a>
+						{{/if}}
 				</div>
 			</div>
 			<div class="row2">
-				<ul>
-					{{#if youtubeName}}
-					<li>
-						<strong>YouTube:</strong>
-						<a href="{{youtubeUrl}}" target="_blank">{{youtubeName}}</a>
-					</li>
-					{{/if}}
-					{{#if twitter}}
-					<li>
-						<strong>Twitter:</strong>
-						<a href="https://twitter.com/{{twitter}}" target="_blank">@{{twitter}}</a>
-					</li>
-					{{/if}}
-					{{#if websiteName}}
-					<li>
-						<strong>Website:</strong>
-						<a href="{{websiteurl}}" target="_blank">{{websiteName}}</a>
-					</li>
-					{{/if}}
-					{{#if linkedinName}}
-					<li>
-						<strong>LinkedIn:</strong>
-						<a href="{{linkedinUrl}}" target="_blank">{{linkedinName}}</a>
-					</li>
-					{{/if}}
-					{{#if githubName}}
-					<li>
-						<strong>GitHub:</strong>
-						<a href="{{githubUrl}}" target="_blank">{{githubName}}</a>
-					</li>
-					{{/if}}
-				</ul>
+				<div class="speeakerlink row">
+					{{#each links}}
+							<a class="col1-5"href="{{url}}" target="_blank">{{type}}</a>
+					{{/each}}
+				</div>
 				{{#if firstName}}
 				<h2>{{title}}</h2>
 				{{/if}}

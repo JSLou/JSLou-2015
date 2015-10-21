@@ -12,12 +12,13 @@ module.exports = function(events, options){
 function futureOnly(events){
   var newArray = [];
   for (var i=0; i < events.length; i++){
-    if(Date.parse(events[i].date) > Date.now()){
-      console.log(Date.parse(events[i].date) +" is more than " + Date.now() + " KEEP IT");
+    var nowMinusOneDay = Date.now() - 86400000;
+    if(Date.parse(events[i].date) > nowMinusOneDay){
+      //console.log(Date.parse(events[i].date) +" is more than " + nowMinusOneDay + " KEEP IT");
       newArray.push(events[i]);
     }
     else{
-      console.log(Date.parse(events[i].date) +" is less than " + Date.now() + " SKIP IT");
+      //console.log(Date.parse(events[i].date) +" is less than " + nowMinusOneDay + " SKIP IT");
     }
   }
 

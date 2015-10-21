@@ -9,7 +9,21 @@
 	<link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-	<nav>
+
+	<div class="mobile-header mobile-only">
+		<button class="mobile-menu-button"><i class="fa fa-bars"></i></button>
+	</div>
+
+	<div class="mobile-menu mobile-only hidden">
+		<div>
+			<button class="close-icon"><i class="fa fa-times"></i></button>
+		</div>
+		{{#each jslouinfo.pages}}
+		{{> navitem }}
+		{{/each}}
+	</div>
+
+	<nav class="hide-on-mobile">
 		<div class="row">
 			{{#each jslouinfo.pages}}
 			{{> navitem }}
@@ -21,8 +35,10 @@
 
 		<header class="row">
 			<div class="col1-2">
-				<a href="index.html" title="Return home"><h1><img class="logo" src="img/logo-2015.png" alt="JSLou - Louisville Kentucky's JavaScript group"/></h1></a>
-				<h2>Louisville Kentucky's JavaScript Group</h2>
+				<div class="module">
+					<a href="index.html" title="Return home"><h1><img class="logo" src="img/logo-2015.png" alt="JSLou - Louisville Kentucky's JavaScript group"/></h1></a>
+					<h2>Louisville Kentucky's JavaScript Group</h2>
+				</div>
 			</div>
 
 			{{#nextUpcoming events}}
@@ -34,7 +50,7 @@
 		<div id="content">
 			{{> body}}
 		</div>
-	</div><!-- /#wrapper -->
+	</div>
 	<footer>
 		<div class="row">
 			<div class="col1-4">
@@ -75,4 +91,25 @@
 	</footer>
 
 </body>
+<script src="js/jquery.min.js"></script>
+<script defer="" src="js/jquery.flexslider.js"></script>
+<script>
+$(window).load(function() {
+	$('.flexslider').flexslider({
+		animation: "slide"
+	});
+});
+
+$(".mobile-menu-button").click(function(){
+	$(".mobile-menu").removeClass("hidden");
+	$(".mobile-header").addClass("hidden");
+	$(".page").addClass("hidden");
+});
+
+$(".close-icon").click(function(){
+	$(".mobile-menu").addClass("hidden");
+	$(".mobile-header").removeClass("hidden");
+	$(".page").removeClass("hidden");
+});
+</script>
 </html>

@@ -8,15 +8,25 @@
 @import"footer";
 @import"event";
 @import"topics";
+@import"mobilemenu";
 
 .logo{
   margin: 10px auto 0 auto;
   display: block;
   max-height: 270px;
+  max-width: 100%;
+  @include bp(baby-bear) {
+    margin: 0 auto;
+  }
 }
 header{
   h2{
     text-align: center;
+    @include bp(baby-bear) {
+      font-size: .9rem;
+      margin: 0 auto;
+      padding: 0;
+    }
   }
 }
 
