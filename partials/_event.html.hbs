@@ -1,37 +1,41 @@
 <div class="speakerAnnouncement col1-2">
-	<div class="module">
-		<div class="row0">Next Meeting</div>
-		<div class="row1">
-			<div class="leftSide">
-				<div class="bioPicContainer">
-					<img src="{{photo}}" alt="{{photoAlt}}" class="bioPic"/>
-					<img src="img/brackets.png" class="brackets"/>
-				</div>
 
-			</div>
-			<div class="rightSide">
-				{{#if firstName}}
-				<h2>{{firstName}}<span class="lastName">{{lastName}}</span></h2>
-				{{else}}
-				<h2>{{title}}</h2>
-				{{/if}}
-				<p>{{day}} {{date}}</br>
-					{{time}} at <a class="redLink" href="{{directions}}"="_blank">{{location}}</a> </p>
-					{{#if meetup}}
+	<div class="module">
+		{{#if rsvps}}
+		<div class="attendance" title="Attendance for {{date}}"><span class="rsvps">{{rsvps}}</a></div>
+			{{/if}}
+			<div class="row0">Next Meeting</div>
+			<div class="row1">
+				<div class="leftSide">
+					<div class="bioPicContainer">
+						<img src="{{photo}}" alt="{{photoAlt}}" class="bioPic"/>
+						<img src="img/brackets.png" class="brackets"/>
+					</div>
+
+				</div>
+				<div class="rightSide">
+					{{#if firstName}}
+					<h2>{{firstName}}<span class="lastName">{{lastName}}</span></h2>
+					{{else}}
+					<h2>{{title}}</h2>
+					{{/if}}
+					<p>{{day}} {{date}}</br>
+						{{time}} at <a class="redLink" href="{{directions}}"="_blank">{{location}}</a> </p>
+						{{#if meetup}}
 						<a href="{{meetup}}" class="btn" target="_blank">{{#ifFuture date}}RSVP on Meetup.com{{else}}View event on Meetup.com{{/ifFuture}}</a>
 						{{/if}}
+					</div>
 				</div>
-			</div>
-			<div class="row2">
-				<div class="speeakerlink row">
-					{{#each links}}
-							<a class="col1-5"href="{{url}}" target="_blank">{{type}}</a>
-					{{/each}}
+				<div class="row2">
+					<div class="speeakerlink row">
+						{{#each links}}
+						<a class="col1-5"href="{{url}}" target="_blank">{{type}}</a>
+						{{/each}}
+					</div>
+					{{#if firstName}}
+					<h2>{{title}}</h2>
+					{{/if}}
+					<p> {{description}} </p>
 				</div>
-				{{#if firstName}}
-				<h2>{{title}}</h2>
-				{{/if}}
-				<p> {{description}} </p>
 			</div>
 		</div>
-	</div>

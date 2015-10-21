@@ -19,6 +19,7 @@
 .speakerAnnouncement {
 
   .module{
+    position: relative;
     background: black;
     color: white;
     padding: 0;
@@ -190,4 +191,20 @@ header{
       color: black;
     }
   }
+}
+
+.attendance{
+  z-index: 2;
+  position: absolute;
+  background: $red;
+  color: white;
+  top: 5px;
+  left: 5px;
+  width: 45px;
+  height: 45px;
+  border-radius: 45px;
+  text-align: center;
+  padding: 9px;
+  font-size: 1.2rem;
+  font-style: italic;
 }
