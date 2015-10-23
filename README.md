@@ -12,5 +12,5 @@ To build:
 
 To view locally:
  1. Run `npm install -g node-static`
- 2. Run `static out`
+ 2. Run `static dest`
  3. Point your web browser at [http://localhost:8080](http://localhost:8080)
