@@ -1,3 +1,5 @@
+@import "bourbon/bourbon";
+
 @import"colors";
 @import"buttons";
 @import"breakpoints";
@@ -34,10 +36,6 @@ body{
   font-family: "Open Sans", helvetica, arial, verdana, sans-serif;
   letter-spacing: .09rem;
   font-weight: 100;
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  //height: 100vh;
 }
 
 

@@ -13,6 +13,7 @@
     "url": "https://github.com/JSLou/JSLou-2015"
   },
   "dependencies": {
-    "unfold": "^0.3.2"
+    "unfold": "^0.3.2",
+    "bourbon": "^4.2.6"
   }
 }

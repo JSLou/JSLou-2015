@@ -10,6 +10,5 @@ var comparisons = {
 module.exports = function(events, options){
   var direction = options.hash["direction"] || "ascending";
   var sortedEvents = events.slice(0).sort(comparisons[direction]);
-  //console.log(JSON.parse(sortedEvents));
   return options.fn(sortedEvents);
 }

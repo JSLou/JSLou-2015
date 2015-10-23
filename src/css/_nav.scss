@@ -10,9 +10,7 @@ nav{
     padding: 12px 0;
     letter-spacing: 3px;
     font-size: 16px;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    transition: all 0.2s;
+    @include transition(all 0.2s ease-in-out);
     &:hover{
       color: darken($red, 10%);
       background: white;
