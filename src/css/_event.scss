@@ -198,13 +198,17 @@ header{
   position: absolute;
   background: $red;
   color: white;
-  top: 5px;
-  left: 5px;
-  width: 45px;
-  height: 45px;
-  border-radius: 45px;
+  top: 8px;
+  left: 8px;
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
   text-align: center;
-  padding: 9px;
+  padding: 23px 0;
   font-size: 1.2rem;
   font-style: italic;
+  box-shadow: 0 0 10px 1px rgba(0,0,0,0.4);
+  i{
+    margin: 0 5px 0 0;
+  }
 }

@@ -40,7 +40,12 @@
             }
         ],
         "title": "Making 'this' Go Away",
-        "description": "Would you like to never again be bothered by 'this'? Learn the pitfalls of JavaScript's 'this' keyword and the ways to avoid the problem. Then, master 'this' by bending it to your will with the dark arts of call, apply, and bind."
+        "description": "Would you like to never again be bothered by 'this'? Learn the pitfalls of JavaScript's 'this' keyword and the ways to avoid the problem. Then, master 'this' by bending it to your will with the dark arts of call, apply, and bind.",
+        "attendance": 18,
+        "rsvps": 23,
+        "repo":"",
+        "presentation":""
+
     },
     {
         "day": "Wednesday",
