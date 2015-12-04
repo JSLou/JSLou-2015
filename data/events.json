@@ -1,4 +1,108 @@
 [
+
+    {
+        "firstName": "",
+        "lastName": "",
+        "day": "Wednesday",
+        "date": "2016-02-03",
+        "time": "7pm",
+        "directions": "http://maps.google.com/maps?f=q&hl=en&q=204+South+Floyd+Street%2C+Louisville%2C+KY%2C+us",
+        "location": "iHub",
+        "meetup": "http://www.meetup.com/JSLouKY/events/drlhhkyvdbfb/",
+        "photo": "img/hack-night-logo.png",
+        "photoAlt": "",
+        "links": [],
+        "title": "JSLOU JAVASCRIPT HACK NIGHT",
+        "description": "",
+        "attendance": 0,
+        "rsvps": 0
+    },
+
+{
+    "firstName": "Adam",
+    "lastName": "Bell",
+    "day": "Wednesday",
+    "date": "2016-01-20",
+    "time": "7pm",
+    "directions": "https://www.google.com/maps/place/VIA+Studio/@38.252457,-85.739881,17z/data=!3m1!4b1!4m2!3m1!1s0x886972dec5cc9407:0xb6df1269286cc200?hl=en",
+    "location": "Via Studio",
+    "meetup":"http://www.meetup.com/JSLouKY/events/dnlhhkyvcbbc/",
+    "photo": "img/hack-night-logo.png",
+    "photoAlt": "Adam Bell JavaScript developer Louisville, KY Janurary 16, 2015",
+    "links": [
+
+    ],
+    "title": "Topic TBA",
+    "description": "JSLou is a gathering where people of any experience level, and all types of JavaScript can feel right at home. We meet two times per month to talk about news in the world of JavaScript and Nodejs, show projects we are working on, and work on group projects. Come check it out!",
+    "attendance": 0,
+    "rsvps": 0,
+    "repo":"",
+    "presentation":""
+
+},
+    {
+        "firstName": "",
+        "lastName": "",
+        "day": "Wednesday",
+        "date": "2016-01-06",
+        "time": "7pm",
+        "directions": "http://maps.google.com/maps?f=q&hl=en&q=204+South+Floyd+Street%2C+Louisville%2C+KY%2C+us",
+        "location": "iHub",
+        "meetup": "http://www.meetup.com/JSLouKY/events/226756440/",
+        "photo": "img/hack-night-logo.png",
+        "photoAlt": "",
+        "links": [],
+        "title": "JSLOU JAVASCRIPT HACK NIGHT",
+        "description": "",
+        "attendance": 0,
+        "rsvps": 0
+    },
+  {
+      "firstName": "Matthew",
+      "lastName": "Phillips",
+      "day": "Wednesday",
+      "date": "2015-12-16",
+      "time": "7pm",
+      "directions": "https://www.google.com/maps/place/VIA+Studio/@38.252457,-85.739881,17z/data=!3m1!4b1!4m2!3m1!1s0x886972dec5cc9407:0xb6df1269286cc200?hl=en",
+      "location": "Via Studio",
+      "meetup":"http://www.meetup.com/JSLouKY/events/224729947/",
+      "photo": "img/speakers/matthew-phillips2.jpg",
+      "photoAlt": "Matthew Phillips JavaScript developer Louisville, KY December 16, 2015",
+      "links": [
+          {
+              "type": "Twitter",
+              "url": "https://twitter.com/matthewcp"
+          },
+          {
+              "type": "GitHub",
+              "url": "https://github.com/matthewp"
+          }
+      ],
+      "title": "Build the fastest single page applications with DoneJS",
+      "description": "Learn how to build the fastest single page applications with DoneJS (donejs.com). This talk details some most important performance techniques used in single page applications like: server side rendering, progressively loading optimized bundles, and use of content delivery networks. We will discover how DoneJS solves these problems while building a simple real-time chat application.",
+      "attendance": 0,
+      "rsvps": 0,
+      "repo":"",
+      "presentation":""
+
+  },
+    {
+        "firstName": "",
+        "lastName": "",
+        "day": "Wednesday",
+        "date": "2015-12-02",
+        "time": "7pm",
+        "directions": "http://maps.google.com/maps?f=q&hl=en&q=204+South+Floyd+Street%2C+Louisville%2C+KY%2C+us",
+        "location": "iHub",
+        "meetup": "http://www.meetup.com/JSLouKY/events/225914889/",
+        "photo": "img/hack-night-logo.png",
+        "photoAlt": "",
+        "links": [],
+        "title": "JSLOU JAVASCRIPT HACK NIGHT",
+        "description": "",
+        "attendance": 9,
+        "rsvps": 10
+    },
   {
       "firstName": "Alex",
       "lastName": "Bezuska",
@@ -30,8 +134,8 @@
       ],
       "title": "No Shave November with Handlebars.js",
       "description": "Learn how building templates using Handlebars can keep you from repeating yourself and make your HTML smarter. I will cover both front-end handlebars usage, and back-end templating with Node.js",
-      "attendance": 0,
-      "rsvps": 0,
+      "attendance": 28,
+      "rsvps": 28,
       "repo":"",
       "presentation":""
 
