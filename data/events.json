@@ -1,4 +1,41 @@
 [
+  {
+      "firstName": "Alex",
+      "lastName": "Bezuska",
+      "day": "Wednesday",
+      "date": "2015-11-18",
+      "time": "7pm",
+      "directions": "https://www.google.com/maps/place/VIA+Studio/@38.252457,-85.739881,17z/data=!3m1!4b1!4m2!3m1!1s0x886972dec5cc9407:0xb6df1269286cc200?hl=en",
+      "location": "Via Studio",
+      "meetup":"http://www.meetup.com/JSLouKY/events/225914873/",
+      "photo": "img/speakers/alex-bezuska.jpg",
+      "photoAlt": "Alex Bezuska JavaScript developer Louisville, KY November 18, 2015",
+      "links": [
+          {
+              "type": "Twitter",
+              "url": "http://www.twitter.com/alexbezuska"
+          },
+          {
+              "type": "LinkedIn",
+              "url": "https://www.linkedin.com/in/alexbezuska/"
+          },
+          {
+              "type": "GitHub",
+              "url": "https://github.com/alexbezuska"
+          },
+          {
+              "type": "Email",
+              "url": "mailto:abezuska@gmail.com"
+          }
+      ],
+      "title": "No Shave November with Handlebars.js",
+      "description": "Learn how building templates using Handlebars can keep you from repeating yourself and make your HTML smarter. I will cover both front-end handlebars usage, and back-end templating with Node.js",
+      "attendance": 0,
+      "rsvps": 0,
+      "repo":"",
+      "presentation":""
+
+  },
     {
         "firstName": "",
         "lastName": "",
@@ -43,8 +80,7 @@
         "description": "Would you like to never again be bothered by 'this'? Learn the pitfalls of JavaScript's 'this' keyword and the ways to avoid the problem. Then, master 'this' by bending it to your will with the dark arts of call, apply, and bind.",
         "attendance": 18,
         "rsvps": 23,
-        "repo":"",
-        "presentation":""
+        "repo":"https://github.com/ClaytonHunt/Talks/tree/master/MakingThisGoAway"
 
     },
     {

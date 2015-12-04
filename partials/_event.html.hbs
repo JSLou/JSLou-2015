@@ -22,14 +22,22 @@
 					<p>{{day}} {{date}}</br>
 						{{time}} at <a class="redLink" href="{{directions}}"="_blank">{{location}}</a> </p>
 						{{#if meetup}}
-						<a href="{{meetup}}" class="btn" target="_blank">{{#ifFuture date}}RSVP on Meetup.com{{else}}View event on Meetup.com{{/ifFuture}}</a>
+						{{#ifFuture date}}
+						<a href="{{meetup}}" class="btn" target="_blank">RSVP on Meetup.com</a>
+						{{else}}
+						{{#if repo}}
+						<a href="{{repo}}" class="btn" target="_blank">Presentation Repo</a>
+						{{/if}}
+						<a href="{{meetup}}" class="btn" target="_blank">View event on Meetup.com</a>
+						{{/ifFuture}}
+
 						{{/if}}
 					</div>
 				</div>
 				<div class="row2">
-					<div class="speeakerlink row">
+					<div class="speakerlink row">
 						{{#each links}}
-						<a class="col1-5"href="{{url}}" target="_blank">{{type}}</a>
+							<a class="col1-5" href="{{url}}" target="_blank">{{type}}</a>
 						{{/each}}
 					</div>
 					{{#if firstName}}
