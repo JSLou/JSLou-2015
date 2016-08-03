@@ -1,4 +1,190 @@
-[{
+[
+  {
+   "firstName": "",
+   "lastName": "",
+   "day": "Wednesday",
+   "date": "2016-09-07",
+   "time": "7pm",
+   "directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+   "location": "Warp Zone Louisville",
+   "meetup": "http://www.meetup.com/JSLouKY/events/231524584/",
+   "photo": "img/hack-night-logo-wz.jpg",
+   "photoAlt": "JSLOU JAVASCRIPT HACK NIGHT",
+   "links": [],
+   "title": "JSLOU JAVASCRIPT HACK NIGHT",
+  "description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
+   "attendance": 0,
+   "rsvps": 0
+ },
+  {
+  	"firstName": "Eric",
+  	"lastName": "Lathrop",
+  	"day": "Wednesday",
+  	"date": "2016-08-17",
+  	"time": "7pm",
+  	"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+  	"location": "Warp Zone Louisville",
+  	"meetup": "http://www.meetup.com/JSLouKY/events/231524614/",
+    "presentation": "https://www.youtube.com/watch?v=cFtH4VQ-NyQ",
+  	"photo": "img/speakers/eric-lathrop.jpg",
+  	"photoAlt": "",
+  	"links": [
+      {
+        "type": "Github",
+        "url": "https://github.com/ericlathrop/"
+      },
+      {
+        "type": "Twitter",
+        "url": "http://twitter.com/ericlathrop"
+      }
+    ],
+  	"title": "Using browser dev tools with Eric Lathrop",
+  	"description": "Description coming soon ",
+  	"attendance": 0,
+  	"rsvps": 0
+  },
+  {
+   "firstName": "",
+   "lastName": "",
+   "day": "Wednesday",
+   "date": "2016-08-03",
+   "time": "7pm",
+   "directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+   "location": "Warp Zone Louisville",
+   "meetup": "http://www.meetup.com/JSLouKY/events/231524581/",
+   "photo": "img/hack-night-logo-wz.jpg",
+   "photoAlt": "JSLOU JAVASCRIPT HACK NIGHT",
+   "links": [],
+   "title": "JSLOU JAVASCRIPT HACK NIGHT",
+  "description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
+   "attendance": 0,
+   "rsvps": 0
+ },
+  {
+   "firstName": "",
+   "lastName": "",
+   "day": "Wednesday",
+   "date": "2016-07-06",
+   "time": "7pm",
+   "directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+   "location": "Warp Zone Louisville",
+   "meetup": "http://www.meetup.com/JSLouKY/events/231517583/",
+   "photo": "img/hack-night-logo-wz.jpg",
+   "photoAlt": "JSLOU JAVASCRIPT HACK NIGHT",
+   "links": [],
+   "title": "JSLOU JAVASCRIPT HACK NIGHT",
+  "description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
+   "attendance": 0,
+   "rsvps": 0
+ },
+  {
+  	"firstName": "Alan",
+  	"lastName": "Blount",
+  	"day": "Wednesday",
+  	"date": "2016-06-15",
+  	"time": "7pm",
+  	"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+  	"location": "Warp Zone Louisville",
+  	"meetup": "http://www.meetup.com/JSLouKY/events/230761000/",
+    "presentation": "https://www.youtube.com/watch?v=cFtH4VQ-NyQ",
+  	"photo": "img/speakers/alan-blount.png",
+  	"photoAlt": "",
+  	"links": [
+      {
+        "type": "Github",
+        "url": "https://github.com/zeroasterisk/"
+      },
+      {
+        "type": "Twitter",
+        "url": "http://twitter.com/zeroasterisk"
+      },
+      {
+        "type": "Linkedin",
+        "url": "http://www.linkedin.com/in/alanblount"
+      },
+      {
+        "type": "Google+",
+        "url": "https://plus.google.com/+alanblount"
+      },
+      {
+        "type": "Youtube",
+        "url": "http://www.youtube.com/user/zeroasterisk"
+      }
+    ],
+  	"title": "React CDK & Storybook with Alan Blount",
+  	"description": "React CDK is not just another React boilerplate. It’s much more than that, and it comes with support from Kadira. With React CDK, you can focus on developing your React component or utility while React CDK takes care of all the other stuff. ",
+  	"attendance": 18,
+  	"rsvps": 24
+  },
+  {
+   "firstName": "",
+   "lastName": "",
+   "day": "Wednesday",
+   "date": "2016-06-01",
+   "time": "7pm",
+   "directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+   "location": "Event cancelled",
+   "meetup": "",
+   "photo": "img/hack-night-logo-wz.jpg",
+   "photoAlt": "",
+   "links": [],
+   "title": "JSLOU JAVASCRIPT HACK NIGHT",
+  "description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
+   "attendance": 6,
+   "rsvps": 6
+ },
+  {
+   "firstName": "",
+   "lastName": "",
+   "day": "Wednesday",
+   "date": "2016-06-01",
+   "time": "7pm",
+   "directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+   "location": "Event cancelled",
+   "meetup": "",
+   "photo": "img/hack-night-logo-wz.jpg",
+   "photoAlt": "",
+   "links": [],
+   "title": "JSLOU JAVASCRIPT HACK NIGHT",
+ 	"description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
+   "attendance": 6,
+   "rsvps": 6
+ },
+  {
+   "firstName": "",
+   "lastName": "",
+   "day": "Wednesday",
+   "date": "2016-05-18",
+   "time": "7pm",
+   "directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+   "location": "Event cancelled",
+   "meetup": "",
+   "photo": "img/hack-night-logo-wz.jpg",
+   "photoAlt": "",
+   "links": [],
+   "title": "Learn Night Cancelled",
+   "description": "Cancelled - sorry for the inconvenience.",
+   "attendance": 0,
+   "rsvps": 0
+ },
+  {
+   "firstName": "",
+   "lastName": "",
+   "day": "Wednesday",
+   "date": "2016-05-04",
+   "time": "7pm",
+   "directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+   "location": "Event cancelled",
+   "meetup": "http://www.meetup.com/JSLouKY/events/229107880/",
+   "photo": "img/hack-night-logo-wz.jpg",
+   "photoAlt": "",
+   "links": [],
+   "title": "HACK NIGHT Cancelled",
+   "description": "Cancelled - sorry for the inconvenience.",
+   "attendance": 0,
+   "rsvps": 0
+ },
+ {
 	"firstName": "Craig",
 	"lastName": "Burton",
 	"day": "Wednesday",
@@ -28,9 +214,9 @@
     }
   ],
 	"title": "Intro to React and Redux",
-	"description": "Description Coming soon.",
-	"attendance": 0,
-	"rsvps": 0
+	"description": "React has been gaining popularity in the web development arena, and is quickly becoming one of the most popular JavaScript view frameworks for new projects. This talk will introduce you to the core concepts of React, as well as Redux, an amazing library for handling all of the application state for our React application.",
+	"attendance": 28,
+	"rsvps": 28
 }, {
 	"firstName": "",
 	"lastName": "",
