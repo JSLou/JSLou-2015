@@ -3,8 +3,8 @@
 
 ##Before you start:
 1. Read the Guidelines for contributing to this project
- 2. Install [node.js](http://nodejs.org/)
- 3. clone the project onto your local machine `git clone git@github.com:JSLou/JSLou-2015.git`
+2. Install [node.js](http://nodejs.org/)
+3. clone the project onto your local machine `git clone git@github.com:JSLou/JSLou-2015.git`
 
 ##Guidelines for contributing to this project:
 * Check the github issues to see if any specific help is needed, there might be something that fits your skills.
