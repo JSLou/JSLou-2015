@@ -4,7 +4,8 @@
   "description": "Louisville Kentucky's JavaScript Group",
   "main": "index.js",
   "scripts": {
-    "build": "unfold site.json"
+    "build": "unfold site.json",
+    "upload": "unfold site.json && sh upload.sh"
   },
   "author": "Alex Bezuska <abezuska@gmail.com> (http://alexbezuska.com/)",
   "license": "MIT",
