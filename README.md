@@ -53,12 +53,12 @@ Every time you build the site a Handlebars helper will use the provided dates of
     "rsvps": 0
   },
   ```
-* after the event has been added try building using the process below.
+* After the event has been added try building using the process below.
 
 
 ## Building the site
 
-This uses the [unfold static site generator](https://github.com/ericlathrop/unfold).
+This site uses the [unfold static site generator](https://github.com/ericlathrop/unfold).
   * Run `npm install` (or `npm i` for short) from the root of this project to download all of the project's dependencies.
   * Run `npm run build` from the root of this project to tell unfold and handlebars to compile the html pages. Unfold uses the JSON data and template html files to create static html pages to serve as the final website.
 
