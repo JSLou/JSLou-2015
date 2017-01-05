@@ -1,5 +1,111 @@
-[
+[{
+		"firstName": "Lightning Talks",
+		"lastName": "Series",
+		"day": "Wednesday",
+		"date": "2017-02-15",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/236696682/",
+		"photo": "img/hack-night-logo-wz.jpg",
+		"photoAlt": "JSLou JavaScript ⚡Lightning talks!⚡",
+		"links": [],
+		"title": "JSLou JavaScript ⚡Lightning talks!⚡",
+		"description": "Lightning talks in the new year! Let me know if you would like to give a talk: abezuska@gmail.com ",
+		"attendance": 0,
+		"rsvps": 0
+	}, {
+		"firstName": "",
+		"lastName": "",
+		"day": "Wednesday",
+		"date": "2017-02-01",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/drlhhkywdbcb/",
+		"photo": "img/hack-night-logo-wz.jpg",
+		"photoAlt": "JSLou (JavaScript Louisville, KY) Hack Night",
+		"links": [],
+		"title": "JavaScript Hack Night",
+		"description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
+		"attendance": 0,
+		"rsvps": 0
+	}, {
+		"firstName": "Josh",
+		"lastName": "Greenwood",
+		"day": "Wednesday",
+		"date": "2017-01-18",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/236091760/",
+		"photo": "img/speakers/josh-greenwood.png",
+		"photoAlt": "Josh Greenwood - Introduction to elm",
+		"links": [{
+			"type": "Website",
+			"url": "http://joshtgreenwood.com/"
+		}, {
+			"type": "twitter",
+			"url": "https://twitter.com/joshtgreenwood"
+		}],
+		"title": "Josh Greenwood - Introduction to elm",
+		"description": "Check out elm here: http://elm-lang.org/  Full talk description coming soon!",
+		"attendance": 0,
+		"rsvps": 0
+	},
+
 	{
+		"firstName": "",
+		"lastName": "",
+		"day": "Wednesday",
+		"date": "2017-01-04",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/236395803/",
+		"photo": "img/hack-night-logo-wz.jpg",
+		"photoAlt": "JSLou (JavaScript Louisville, KY) Hack Night",
+		"links": [],
+		"title": "JavaScript Hack Night",
+		"description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
+		"attendance": 11,
+		"rsvps": 13
+	}, {
+		"firstName": "Lightning Talks",
+		"lastName": "Series",
+		"day": "Wednesday",
+		"date": "2016-12-21",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/231524629/",
+		"presentation": "https://github.com/JSLou/speaker-notes/blob/master/README.md#2016-12-21-speakers",
+		"photo": "img/hack-night-logo-wz.jpg",
+		"photoAlt": "JSLou JavaScript ⚡Lightning talks!⚡",
+		"links": [],
+		"title": "JSLou JavaScript ⚡Lightning talks!⚡",
+		"description": "Sign up to give a talk now! email abezuska@gmail.com with the subject \"JSLOU LIGHTNING TALKS\"",
+		"attendance": 11,
+		"rsvps": 11
+	},
+
+	{
+		"firstName": "",
+		"lastName": "",
+		"day": "Wednesday",
+		"date": "2016-12-07",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/231524596/",
+		"photo": "img/hack-night-logo-wz.jpg",
+		"photoAlt": "JSLOU JAVASCRIPT HACK NIGHT",
+		"links": [],
+		"title": "JSLOU JAVASCRIPT HACK NIGHT",
+		"description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
+		"attendance": 0,
+		"rsvps": 0
+	}, {
 		"firstName": "Craig",
 		"lastName": "Burton",
 		"day": "Wednesday",
@@ -8,8 +114,9 @@
 		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
 		"location": "Warp Zone Louisville",
 		"meetup": "https://www.meetup.com/JSLouKY/events/231524623/",
+		"presentation": "http://zenith-one.github.io/slides/intro-to-typescript/",
 		"photo": "img/speakers/craig-burton.jpg",
-		"photoAlt": "",
+		"photoAlt": "Craig Burton Intro to Typescript",
 		"links": [{
 			"type": "Website",
 			"url": "http://theonewho.codes/"
@@ -25,8 +132,8 @@
 		}],
 		"title": "Intro to Typescript",
 		"description": "TypeScript is a free and open-source programming language developed and maintained by Microsoft. It is a strict superset of JavaScript, and adds optional static typing and class-based object-oriented programming to the language.",
-		"attendance": 0,
-		"rsvps": 26
+		"attendance": 24,
+		"rsvps": 24
 	},
 
 
@@ -135,8 +242,8 @@
 		}],
 		"title": "Using browser dev tools with Eric Lathrop",
 		"description": "Description coming soon ",
-		"attendance": 0,
-		"rsvps": 0
+		"attendance": 15,
+		"rsvps": 15
 	}, {
 		"firstName": "",
 		"lastName": "",
@@ -151,8 +258,8 @@
 		"links": [],
 		"title": "JSLOU JAVASCRIPT HACK NIGHT",
 		"description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
-		"attendance": 0,
-		"rsvps": 0
+		"attendance": 8,
+		"rsvps": 8
 	}, {
 		"firstName": "",
 		"lastName": "",
@@ -167,8 +274,8 @@
 		"links": [],
 		"title": "JSLOU JAVASCRIPT HACK NIGHT",
 		"description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
-		"attendance": 0,
-		"rsvps": 0
+		"attendance": 13,
+		"rsvps": 13
 	}, {
 		"firstName": "Alan",
 		"lastName": "Blount",
@@ -296,11 +403,7 @@
 		"description": "React has been gaining popularity in the web development arena, and is quickly becoming one of the most popular JavaScript view frameworks for new projects. This talk will introduce you to the core concepts of React, as well as Redux, an amazing library for handling all of the application state for our React application.",
 		"attendance": 28,
 		"rsvps": 28
-	},
-
-
-
-	{
+	}, {
 		"firstName": "",
 		"lastName": "",
 		"day": "Wednesday",
@@ -314,8 +417,8 @@
 		"links": [],
 		"title": "JSLOU JAVASCRIPT HACK NIGHT",
 		"description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
-		"attendance": 0,
-		"rsvps": 0
+		"attendance": 12,
+		"rsvps": 12
 	}, {
 		"firstName": "Ben",
 		"lastName": "Wiley",
@@ -519,10 +622,13 @@
 		"time": "7pm",
 		"directions": "https://www.google.com/maps?f=q&hl=en&q=204+South+Floyd+Street,+Louisville,+KY,+us",
 		"location": "iHub",
+		"meetup": "https://www.meetup.com/JSLouKY/events/225914861/",
 		"photo": "img/hack-night-logo.png",
 		"photoAlt": "JSLou JavaScript Hack Night",
 		"title": "JSLou JavaScript Hack Night",
-		"description": "Come hang out, chat, and work on anything JavaScript related!"
+		"description": "Come hang out, chat, and work on anything JavaScript related!",
+		"attendance": 9,
+		"rsvps": 9
 	}, {
 		"day": "Wednesday",
 		"date": "2015-10-07",
@@ -585,10 +691,9 @@
 		"location": "Via Studio",
 		"meetup": "http://www.meetup.com/JSLouKY/events/222593172/",
 		"photo": "img/hack-night-logo.png",
-		"photoAlt": "",
-		"links": [],
-		"title": "",
-		"description": "",
+		"photoAlt": "JSLou JavaScript Hack Night",
+		"title": "JSLou JavaScript Hack Night",
+		"description": "Come hang out, chat, and work on anything JavaScript related!",
 		"attendance": 5,
 		"rsvps": 5
 	}, {
@@ -601,10 +706,9 @@
 		"location": "Via Studio",
 		"meetup": "http://www.meetup.com/JSLouKY/events/223022587/",
 		"photo": "img/hack-night-logo.png",
-		"photoAlt": "",
-		"links": [],
-		"title": "",
-		"description": "",
+		"photoAlt": "JSLou JavaScript Hack Night",
+		"title": "JSLou JavaScript Hack Night",
+		"description": "Come hang out, chat, and work on anything JavaScript related!",
 		"attendance": 23,
 		"rsvps": 23
 	}, {
@@ -617,10 +721,9 @@
 		"location": "Via Studio",
 		"meetup": "http://www.meetup.com/JSLouKY/events/222840419/",
 		"photo": "img/hack-night-logo.png",
-		"photoAlt": "",
-		"links": [],
-		"title": "",
-		"description": "",
+		"photoAlt": "JSLou JavaScript Hack Night",
+		"title": "JSLou JavaScript Hack Night",
+		"description": "Come hang out, chat, and work on anything JavaScript related!",
 		"attendance": 12,
 		"rsvps": 12
 	}, {
@@ -644,7 +747,7 @@
 			"url": "mailto:engrclemons@gmail.com"
 		}],
 		"title": "Functional Concepts in Javascript",
-		"description": "Introduction to functional concepts in javascript using map,reduce and filter",
+		"description": "Introduction to functional concepts in javascript using map, reduce, and filter",
 		"attendance": 25,
 		"rsvps": 25
 	}, {
@@ -847,16 +950,16 @@
 		"firstName": "",
 		"lastName": "",
 		"day": "Wednesday",
-		"date": "2014-09-3",
+		"date": "2014-09-03",
 		"time": "7pm",
 		"directions": "",
 		"location": "iHub",
 		"meetup": "http://www.meetup.com/JSLouKY/events/199716302/",
-		"photo": "img/hack-night-logo.png",
+    "photo": "img/hack-night-logo.png",
 		"photoAlt": "",
 		"links": [],
-		"title": "JSLou JavaScript Hack Night",
-		"description": "",
+		"title": "Intro to JavaScript Night!",
+		"description": "Hey #Louisville! Interested in learning the basics of #JavaScript? After work tonight come by JSLou!",
 		"attendance": 8,
 		"rsvps": 8
 	}, {
