@@ -1,4 +1,289 @@
 [{
+		"title": "Beginners ask Experienced Developers, Topic:'Web developer careers in our city'",
+		"photo": "img/speakers/panel.png",
+		"day": "Wednesday",
+		"date": "2017-03-15",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/238029441/",
+		"description": "",
+		"attendance": 0,
+		"rsvps": 0
+	}, {
+		"title": " JSLou JavaScript Group Learn Night",
+		"photo": "img/hack-night-logo-wz.jpg",
+		"day": "Wednesday",
+		"date": "2017-04-19",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/237864560/",
+		"description": "JSLou is a gathering where people of any experience level, and all types of JavaScript can feel right at home. We meet two times per month to talk about news in the world of JavaScript and Nodejs, show projects we are working on, and work on group projects. Come check it out!",
+		"attendance": 0,
+		"rsvps": 0
+	}, {
+		"title": " JSLou JavaScript Group Learn Night",
+		"photo": "img/hack-night-logo-wz.jpg",
+		"day": "Wednesday",
+		"date": "2017-05-17",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/dnlhhkywhbwb/",
+		"description": "JSLou is a gathering where people of any experience level, and all types of JavaScript can feel right at home. We meet two times per month to talk about news in the world of JavaScript and Nodejs, show projects we are working on, and work on group projects. Come check it out!",
+		"attendance": 0,
+		"rsvps": 0
+	}, {
+		"title": " JSLou JavaScript Group Learn Night",
+		"photo": "img/hack-night-logo-wz.jpg",
+		"day": "Wednesday",
+		"date": "2017-06-21",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/dnlhhkywjbcc/",
+		"description": "JSLou is a gathering where people of any experience level, and all types of JavaScript can feel right at home. We meet two times per month to talk about news in the world of JavaScript and Nodejs, show projects we are working on, and work on group projects. Come check it out!",
+		"attendance": 0,
+		"rsvps": 0
+	}, {
+		"title": " JSLou JavaScript Group Learn Night",
+		"photo": "img/hack-night-logo-wz.jpg",
+		"day": "Wednesday",
+		"date": "2017-07-19",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"description": "JSLou is a gathering where people of any experience level, and all types of JavaScript can feel right at home. We meet two times per month to talk about news in the world of JavaScript and Nodejs, show projects we are working on, and work on group projects. Come check it out!",
+		"meetup": "https://www.meetup.com/JSLouKY/events/dnlhhkywkbzb/",
+		"attendance": 0,
+		"rsvps": 0
+	}, {
+		"title": " JSLou JavaScript Group Learn Night",
+		"photo": "img/hack-night-logo-wz.jpg",
+		"day": "Wednesday",
+		"date": "2017-08-16",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/dnlhhkywlbvb/",
+		"description": "JSLou is a gathering where people of any experience level, and all types of JavaScript can feel right at home. We meet two times per month to talk about news in the world of JavaScript and Nodejs, show projects we are working on, and work on group projects. Come check it out!",
+		"attendance": 0,
+		"rsvps": 0
+	}, {
+		"title": " JSLou JavaScript Group Learn Night",
+		"photo": "img/hack-night-logo-wz.jpg",
+		"day": "Wednesday",
+		"date": "2017-09-20",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/dnlhhkywmbbc/",
+		"description": "JSLou is a gathering where people of any experience level, and all types of JavaScript can feel right at home. We meet two times per month to talk about news in the world of JavaScript and Nodejs, show projects we are working on, and work on group projects. Come check it out!",
+		"attendance": 0,
+		"rsvps": 0
+	},
+
+
+
+
+	{
+		"title": " JSLou JavaScript Group Learn Night",
+		"photo": "img/hack-night-logo-wz.jpg",
+		"day": "Wednesday",
+		"date": "2017-10-18",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/dnlhhkywnbxb/",
+		"description": "JSLou is a gathering where people of any experience level, and all types of JavaScript can feel right at home. We meet two times per month to talk about news in the world of JavaScript and Nodejs, show projects we are working on, and work on group projects. Come check it out!",
+		"attendance": 0,
+		"rsvps": 0
+	}, {
+		"title": " JSLou JavaScript Group Learn Night",
+		"photo": "img/hack-night-logo-wz.jpg",
+		"day": "Wednesday",
+		"date": "2017-11-15",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/dnlhhkywpbtb/",
+		"description": "JSLou is a gathering where people of any experience level, and all types of JavaScript can feel right at home. We meet two times per month to talk about news in the world of JavaScript and Nodejs, show projects we are working on, and work on group projects. Come check it out!",
+		"attendance": 0,
+		"rsvps": 0
+	}, {
+		"title": " JSLou JavaScript Group Learn Night",
+		"photo": "img/hack-night-logo-wz.jpg",
+		"day": "Wednesday",
+		"date": "2017-12-20",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/dnlhhkywqbbc/",
+		"description": "JSLou is a gathering where people of any experience level, and all types of JavaScript can feel right at home. We meet two times per month to talk about news in the world of JavaScript and Nodejs, show projects we are working on, and work on group projects. Come check it out!",
+		"attendance": 0,
+		"rsvps": 0
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		"title": " JSLou JavaScript Hack Night",
+		"photo": "img/hack-night-logo-wz.jpg",
+		"day": "Wednesday",
+		"date": "2017-05-5",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/drlhhkywgbhb/",
+		"description": "Bring and work on your own personal projects. Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
+		"attendance": 0,
+		"rsvps": 0
+	}, {
+		"title": " JSLou JavaScript Hack Night",
+		"photo": "img/hack-night-logo-wz.jpg",
+		"day": "Wednesday",
+		"date": "2017-05-3",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/drlhhkywhbfb/",
+		"description": "Bring and work on your own personal projects. Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
+		"attendance": 0,
+		"rsvps": 0
+	}, {
+		"title": " JSLou JavaScript Hack Night",
+		"photo": "img/hack-night-logo-wz.jpg",
+		"day": "Wednesday",
+		"date": "2017-06-7",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/drlhhkywjbkb/",
+		"description": "Bring and work on your own personal projects. Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
+		"attendance": 0,
+		"rsvps": 0
+	}, {
+		"title": " JSLou JavaScript Hack Night",
+		"photo": "img/hack-night-logo-wz.jpg",
+		"day": "Wednesday",
+		"date": "2017-07-5",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/drlhhkywkbhb/",
+		"description": "Bring and work on your own personal projects. Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
+		"attendance": 0,
+		"rsvps": 0
+	},
+
+	{
+		"title": " JSLou JavaScript Hack Night",
+		"photo": "img/hack-night-logo-wz.jpg",
+		"day": "Wednesday",
+		"date": "2017-07-5",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/drlhhkywkbhb/",
+		"description": "Bring and work on your own personal projects. Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
+		"attendance": 0,
+		"rsvps": 0
+	},
+
+
+
+
+
+	{
+		"title": " JSLou JavaScript Hack Night",
+    		"photo": "img/hack-night-logo-wz.jpg",
+		"day": "Wednesday",
+		"date": "2017-8-2",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/drlhhkywlbdb/",
+		"description": "Bring and work on your own personal projects. Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
+		"attendance": 0,
+		"rsvps": 0
+	},
+
+	{
+		"title": " JSLou JavaScript Hack Night",
+    		"photo": "img/hack-night-logo-wz.jpg",
+		"day": "Wednesday",
+		"date": "2017-9-6",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/drlhhkywmbjb/",
+		"description": "Bring and work on your own personal projects. Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
+		"attendance": 0,
+		"rsvps": 0
+	},
+
+	{
+		"title": " JSLou JavaScript Hack Night",
+    		"photo": "img/hack-night-logo-wz.jpg",
+		"day": "Wednesday",
+		"date": "2017-10-4",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/drlhhkywnbgb/",
+		"description": "Bring and work on your own personal projects. Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
+		"attendance": 0,
+		"rsvps": 0
+	},
+
+	{
+		"title": " JSLou JavaScript Hack Night",
+    		"photo": "img/hack-night-logo-wz.jpg",
+		"day": "Wednesday",
+		"date": "2017-11-1",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/drlhhkywpbcb/",
+		"description": "Bring and work on your own personal projects. Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
+		"attendance": 0,
+		"rsvps": 0
+	},
+
+	{
+		"title": " JSLou JavaScript Hack Night",
+    		"photo": "img/hack-night-logo-wz.jpg",
+		"day": "Wednesday",
+		"date": "2017-12-6",
+		"time": "7pm",
+		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
+		"location": "Warp Zone Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/drlhhkywqbjb/",
+		"description": "Bring and work on your own personal projects. Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
+		"attendance": 0,
+		"rsvps": 0
+	},
+
+
+
+
+
+
+
+
+
+	{
 		"firstName": "Lightning Talks",
 		"lastName": "Series",
 		"day": "Wednesday",
@@ -9,10 +294,12 @@
 		"meetup": "https://www.meetup.com/JSLouKY/events/236696682/",
 		"photo": "img/hack-night-logo-wz.jpg",
 		"photoAlt": "JSLou JavaScript ⚡Lightning talks!⚡",
-		"links": [],
+		"links": [
+
+		],
 		"title": "JSLou JavaScript ⚡Lightning talks!⚡",
 		"description": "Lightning talks in the new year! Let me know if you would like to give a talk: abezuska@gmail.com ",
-		"attendance": 0,
+		"attendance": 25,
 		"rsvps": 0
 	}, {
 		"firstName": "",
@@ -25,10 +312,12 @@
 		"meetup": "https://www.meetup.com/JSLouKY/events/drlhhkywdbcb/",
 		"photo": "img/hack-night-logo-wz.jpg",
 		"photoAlt": "JSLou (JavaScript Louisville, KY) Hack Night",
-		"links": [],
+		"links": [
+
+		],
 		"title": "JavaScript Hack Night",
 		"description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
-		"attendance": 0,
+		"attendance": 8,
 		"rsvps": 0
 	}, {
 		"firstName": "Josh",
@@ -50,11 +339,9 @@
 		}],
 		"title": "Josh Greenwood - Introduction to elm",
 		"description": "Check out elm here: http://elm-lang.org/  Full talk description coming soon!",
-		"attendance": 0,
+		"attendance": 20,
 		"rsvps": 0
-	},
-
-	{
+	}, {
 		"firstName": "",
 		"lastName": "",
 		"day": "Wednesday",
@@ -65,7 +352,9 @@
 		"meetup": "https://www.meetup.com/JSLouKY/events/236395803/",
 		"photo": "img/hack-night-logo-wz.jpg",
 		"photoAlt": "JSLou (JavaScript Louisville, KY) Hack Night",
-		"links": [],
+		"links": [
+
+		],
 		"title": "JavaScript Hack Night",
 		"description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
 		"attendance": 11,
@@ -82,14 +371,14 @@
 		"presentation": "https://github.com/JSLou/speaker-notes/blob/master/README.md#2016-12-21-speakers",
 		"photo": "img/hack-night-logo-wz.jpg",
 		"photoAlt": "JSLou JavaScript ⚡Lightning talks!⚡",
-		"links": [],
+		"links": [
+
+		],
 		"title": "JSLou JavaScript ⚡Lightning talks!⚡",
 		"description": "Sign up to give a talk now! email abezuska@gmail.com with the subject \"JSLOU LIGHTNING TALKS\"",
 		"attendance": 11,
 		"rsvps": 11
-	},
-
-	{
+	}, {
 		"firstName": "",
 		"lastName": "",
 		"day": "Wednesday",
@@ -100,10 +389,12 @@
 		"meetup": "https://www.meetup.com/JSLouKY/events/231524596/",
 		"photo": "img/hack-night-logo-wz.jpg",
 		"photoAlt": "JSLOU JAVASCRIPT HACK NIGHT",
-		"links": [],
+		"links": [
+
+		],
 		"title": "JSLOU JAVASCRIPT HACK NIGHT",
 		"description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
-		"attendance": 0,
+		"attendance": 5,
 		"rsvps": 0
 	}, {
 		"firstName": "Craig",
@@ -134,10 +425,7 @@
 		"description": "TypeScript is a free and open-source programming language developed and maintained by Microsoft. It is a strict superset of JavaScript, and adds optional static typing and class-based object-oriented programming to the language.",
 		"attendance": 24,
 		"rsvps": 24
-	},
-
-
-	{
+	}, {
 		"firstName": "",
 		"lastName": "",
 		"day": "Wednesday",
@@ -148,7 +436,9 @@
 		"meetup": "https://www.meetup.com/JSLouKY/events/231524593/",
 		"photo": "img/hack-night-logo-wz.jpg",
 		"photoAlt": "JSLOU JAVASCRIPT HACK NIGHT",
-		"links": [],
+		"links": [
+
+		],
 		"title": "JSLOU JAVASCRIPT HACK NIGHT",
 		"description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
 		"attendance": 9,
@@ -164,14 +454,14 @@
 		"meetup": "https://www.meetup.com/JSLouKY/events/231524618/",
 		"photo": "img/hack-night-logo-wz.jpg",
 		"photoAlt": "JSLou JavaScript ⚡Lightning talks!⚡",
-		"links": [],
+		"links": [
+
+		],
 		"title": "JSLou JavaScript ⚡Lightning talks!⚡",
 		"description": "Our first lightning talks session! 4 speakers will talked for 5-25 minutes each to give breief overviews of concepts of technologies. Speakers were: Craig Burton, Eric Lathrop, Ben Wiley, and Thomas Neirynck",
 		"attendance": 18,
 		"rsvps": 18
-	},
-
-	{
+	}, {
 		"firstName": "",
 		"lastName": "",
 		"day": "Wednesday",
@@ -182,14 +472,14 @@
 		"meetup": "https://www.meetup.com/JSLouKY/events/231524589/",
 		"photo": "img/hack-night-logo-wz.jpg",
 		"photoAlt": "JSLOU JAVASCRIPT HACK NIGHT",
-		"links": [],
+		"links": [
+
+		],
 		"title": "JSLOU JAVASCRIPT HACK NIGHT",
 		"description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
 		"attendance": 5,
 		"rsvps": 5
-	},
-
-	{
+	}, {
 		"firstName": "Aaron",
 		"lastName": "Johnson",
 		"day": "Wednesday",
@@ -200,7 +490,9 @@
 		"meetup": "https://www.meetup.com/JSLouKY/events/231524615/",
 		"photo": "img/hack-night-logo-wz.jpg",
 		"photoAlt": "Javascript Promises: Useful patterns with Aaron Johnson (JSLou Learn Night)",
-		"links": [],
+		"links": [
+
+		],
 		"title": "Javascript Promises: Useful patterns with Aaron Johnson (JSLou Learn Night)",
 		"description": "A really brief introduction to asynchronous javascript code followed by a tutorial on handling async operations with ES6 Promises, and capped off with some handy-dandy tips/patterns for using Promises.",
 		"attendance": 7,
@@ -216,7 +508,9 @@
 		"meetup": "https://www.meetup.com/JSLouKY/events/231524584/",
 		"photo": "img/hack-night-logo-wz.jpg",
 		"photoAlt": "JSLOU JAVASCRIPT HACK NIGHT",
-		"links": [],
+		"links": [
+
+		],
 		"title": "JSLOU JAVASCRIPT HACK NIGHT",
 		"description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
 		"attendance": 8,
@@ -255,7 +549,9 @@
 		"meetup": "http://www.meetup.com/JSLouKY/events/231524581/",
 		"photo": "img/hack-night-logo-wz.jpg",
 		"photoAlt": "JSLOU JAVASCRIPT HACK NIGHT",
-		"links": [],
+		"links": [
+
+		],
 		"title": "JSLOU JAVASCRIPT HACK NIGHT",
 		"description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
 		"attendance": 8,
@@ -271,7 +567,9 @@
 		"meetup": "http://www.meetup.com/JSLouKY/events/231517583/",
 		"photo": "img/hack-night-logo-wz.jpg",
 		"photoAlt": "JSLOU JAVASCRIPT HACK NIGHT",
-		"links": [],
+		"links": [
+
+		],
 		"title": "JSLOU JAVASCRIPT HACK NIGHT",
 		"description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
 		"attendance": 13,
@@ -319,7 +617,9 @@
 		"meetup": "",
 		"photo": "img/hack-night-logo-wz.jpg",
 		"photoAlt": "",
-		"links": [],
+		"links": [
+
+		],
 		"title": "JSLOU JAVASCRIPT HACK NIGHT",
 		"description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
 		"attendance": 6,
@@ -335,7 +635,9 @@
 		"meetup": "",
 		"photo": "img/hack-night-logo-wz.jpg",
 		"photoAlt": "",
-		"links": [],
+		"links": [
+
+		],
 		"title": "JSLOU JAVASCRIPT HACK NIGHT",
 		"description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
 		"attendance": 6,
@@ -351,7 +653,9 @@
 		"meetup": "",
 		"photo": "img/hack-night-logo-wz.jpg",
 		"photoAlt": "",
-		"links": [],
+		"links": [
+
+		],
 		"title": "Learn Night Cancelled",
 		"description": "Cancelled - sorry for the inconvenience.",
 		"attendance": 0,
@@ -367,15 +671,14 @@
 		"meetup": "http://www.meetup.com/JSLouKY/events/229107880/",
 		"photo": "img/hack-night-logo-wz.jpg",
 		"photoAlt": "",
-		"links": [],
+		"links": [
+
+		],
 		"title": "HACK NIGHT Cancelled",
 		"description": "Cancelled - sorry for the inconvenience.",
 		"attendance": 0,
 		"rsvps": 0
-	},
-
-
-	{
+	}, {
 		"firstName": "Craig",
 		"lastName": "Burton",
 		"day": "Wednesday",
@@ -414,7 +717,9 @@
 		"meetup": "http://www.meetup.com/JSLouKY/events/228345936/",
 		"photo": "img/hack-night-logo-wz.jpg",
 		"photoAlt": "",
-		"links": [],
+		"links": [
+
+		],
 		"title": "JSLOU JAVASCRIPT HACK NIGHT",
 		"description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
 		"attendance": 12,
@@ -430,7 +735,9 @@
 		"meetup": "http://www.meetup.com/JSLouKY/events/228305928/",
 		"photo": "img/speakers/ben-wiley.jpg",
 		"photoAlt": "",
-		"links": [],
+		"links": [
+
+		],
 		"title": "JSLOU WORKSHOP: FUNCTIONAL JAVASCRIPT LED BY BEN WILEY",
 		"description": "Join JavaScripters from around Louisville Wednesday, March 2nd, and learn to write functional JavaScript like a pro! You'll be able to work at your own pace, and get your hands dirty tackling a series of challenges accessible and fun for JavaScript beginners and veterans alike.",
 		"attendance": 19,
@@ -468,7 +775,9 @@
 		"meetup": "http://www.meetup.com/JSLouKY/events/drlhhkyvdbfb/",
 		"photo": "img/hack-night-logo-wz.jpg",
 		"photoAlt": "",
-		"links": [],
+		"links": [
+
+		],
 		"title": "JSLOU JAVASCRIPT HACK NIGHT",
 		"description": "Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
 		"attendance": 10,
@@ -484,7 +793,9 @@
 		"meetup": "http://www.meetup.com/JSLouKY/events/dnlhhkyvcbbc/",
 		"photo": "img/snow.png",
 		"photoAlt": "",
-		"links": [],
+		"links": [
+
+		],
 		"title": "JSLOU JAVASCRIPT Learn Night",
 		"description": "Cancelled due to weather",
 		"attendance": 0,
@@ -500,7 +811,9 @@
 		"meetup": "http://www.meetup.com/JSLouKY/events/226756440/",
 		"photo": "img/hack-night-logo.png",
 		"photoAlt": "",
-		"links": [],
+		"links": [
+
+		],
 		"title": "JSLOU JAVASCRIPT HACK NIGHT",
 		"description": "",
 		"attendance": 8,
@@ -528,7 +841,6 @@
 		"description": "Learn how to build the fastest single page applications with DoneJS (donejs.com). This talk details some most important performance techniques used in single page applications like: server side rendering, progressively loading optimized bundles, and use of content delivery networks. We will discover how DoneJS solves these problems while building a simple real-time chat application.",
 		"attendance": 25,
 		"rsvps": 25
-
 	}, {
 		"firstName": "",
 		"lastName": "",
@@ -540,7 +852,9 @@
 		"meetup": "http://www.meetup.com/JSLouKY/events/225914889/",
 		"photo": "img/hack-night-logo.png",
 		"photoAlt": "",
-		"links": [],
+		"links": [
+
+		],
 		"title": "JSLOU JAVASCRIPT HACK NIGHT",
 		"description": "",
 		"attendance": 9,
@@ -573,7 +887,6 @@
 		"description": "Learn how building templates using Handlebars can keep you from repeating yourself and make your HTML smarter. I will cover both front-end handlebars usage, and back-end templating with Node.js",
 		"attendance": 28,
 		"rsvps": 28
-
 	}, {
 		"firstName": "",
 		"lastName": "",
@@ -585,7 +898,9 @@
 		"meetup": "http://www.meetup.com/JSLouKY/events/220586808/",
 		"photo": "img/hack-night-logo.png",
 		"photoAlt": "",
-		"links": [],
+		"links": [
+
+		],
 		"title": "",
 		"description": "",
 		"attendance": 13,
@@ -615,7 +930,6 @@
 		"attendance": 18,
 		"rsvps": 23,
 		"presentation": "https://github.com/ClaytonHunt/Talks/tree/master/MakingThisGoAway"
-
 	}, {
 		"day": "Wednesday",
 		"date": "2015-11-04",
@@ -941,7 +1255,9 @@
 		"meetup": "http://www.meetup.com/JSLouKY/events/199716072/",
 		"photo": "img/hack-night-logo.png",
 		"photoAlt": "",
-		"links": [],
+		"links": [
+
+		],
 		"title": "JSLou JavaScript Group Nodeschool on ExpressJS",
 		"description": "Bring your laptop, there will not be a speaker, it will be more like our Open Hack nights but we will be working though the nodeschool lesson about Express called 'expressworks' http://nodeschool.io/#expressworks",
 		"attendance": 5,
@@ -955,9 +1271,11 @@
 		"directions": "",
 		"location": "iHub",
 		"meetup": "http://www.meetup.com/JSLouKY/events/199716302/",
-    "photo": "img/hack-night-logo.png",
+		"photo": "img/hack-night-logo.png",
 		"photoAlt": "",
-		"links": [],
+		"links": [
+
+		],
 		"title": "Intro to JavaScript Night!",
 		"description": "Hey #Louisville! Interested in learning the basics of #JavaScript? After work tonight come by JSLou!",
 		"attendance": 8,
@@ -973,7 +1291,9 @@
 		"meetup": "http://www.meetup.com/JSLouKY/events/202291932/",
 		"photo": "img/hack-night-logo.png",
 		"photoAlt": "",
-		"links": [],
+		"links": [
+
+		],
 		"title": "Intro to JavaScript Night!",
 		"description": "Hey #Louisville! Interested in learning the basics of #JavaScript? After work tonight come by JSLou!",
 		"attendance": 22,
