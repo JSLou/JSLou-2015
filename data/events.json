@@ -7,34 +7,13 @@
 		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
 		"location": "Warp Zone Louisville",
 		"meetup": "https://www.meetup.com/JSLouKY/events/238029441/",
-		"description": "",
-		"attendance": 0,
+    "presentation": "https://www.youtube.com/watch?v=_fQSIOP4Q2M",
+		"description": "This was a specifically beginner-friendly evening event where 3-5 experienced JavaScript developers from the Louisville area answered a mix of audience and moderator driven questions on the topic of \"How do I get my first job in the industry?\"",
+		"attendance": 70,
 		"rsvps": 0
-	}, {
-		"title": " JSLou JavaScript Group Learn Night",
-		"photo": "img/hack-night-logo-wz.jpg",
-		"day": "Wednesday",
-		"date": "2017-04-19",
-		"time": "7pm",
-		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
-		"location": "Warp Zone Louisville",
-		"meetup": "https://www.meetup.com/JSLouKY/events/237864560/",
-		"description": "JSLou is a gathering where people of any experience level, and all types of JavaScript can feel right at home. We meet two times per month to talk about news in the world of JavaScript and Nodejs, show projects we are working on, and work on group projects. Come check it out!",
-		"attendance": 0,
-		"rsvps": 0
-	}, {
-		"title": " JSLou JavaScript Group Learn Night",
-		"photo": "img/hack-night-logo-wz.jpg",
-		"day": "Wednesday",
-		"date": "2017-05-17",
-		"time": "7pm",
-		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
-		"location": "Warp Zone Louisville",
-		"meetup": "https://www.meetup.com/JSLouKY/events/dnlhhkywhbwb/",
-		"description": "JSLou is a gathering where people of any experience level, and all types of JavaScript can feel right at home. We meet two times per month to talk about news in the world of JavaScript and Nodejs, show projects we are working on, and work on group projects. Come check it out!",
-		"attendance": 0,
-		"rsvps": 0
-	}, {
+	},
+
+  {
 		"title": " JSLou JavaScript Group Learn Night",
 		"photo": "img/hack-night-logo-wz.jpg",
 		"day": "Wednesday",
@@ -71,15 +50,15 @@
 		"attendance": 0,
 		"rsvps": 0
 	}, {
-		"title": " JSLou JavaScript Group Learn Night",
-		"photo": "img/hack-night-logo-wz.jpg",
+		"title": "Taking Control of Front-End Data Structures with Margaret James",
+		"photo": "img/speakers/margaret-james.png",
 		"day": "Wednesday",
 		"date": "2017-09-20",
 		"time": "7pm",
 		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
 		"location": "Warp Zone Louisville",
 		"meetup": "https://www.meetup.com/JSLouKY/events/dnlhhkywmbbc/",
-		"description": "JSLou is a gathering where people of any experience level, and all types of JavaScript can feel right at home. We meet two times per month to talk about news in the world of JavaScript and Nodejs, show projects we are working on, and work on group projects. Come check it out!",
+		"description": "This talk will briefly review the “how did we get here” from MVCs to uni-directional frameworks, focusing on a breakdown of different aspects of state, and approaches in dealing with & maintaining a healthy separation between these types of state. It will touch on some of the tooling developed to meet today’s state management-related needs.",
 		"attendance": 0,
 		"rsvps": 0
 	},
@@ -141,7 +120,7 @@
 		"title": " JSLou JavaScript Hack Night",
 		"photo": "img/hack-night-logo-wz.jpg",
 		"day": "Wednesday",
-		"date": "2017-05-5",
+		"date": "2017-04-5",
 		"time": "7pm",
 		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
 		"location": "Warp Zone Louisville",
@@ -149,19 +128,7 @@
 		"description": "Bring and work on your own personal projects. Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
 		"attendance": 0,
 		"rsvps": 0
-	}, {
-		"title": " JSLou JavaScript Hack Night",
-		"photo": "img/hack-night-logo-wz.jpg",
-		"day": "Wednesday",
-		"date": "2017-05-3",
-		"time": "7pm",
-		"directions": "https://www.google.com/maps?f=q&hl=en&q=612+W+Washington+St.,+Louisville,+KY+40202,+KY,+us",
-		"location": "Warp Zone Louisville",
-		"meetup": "https://www.meetup.com/JSLouKY/events/drlhhkywhbfb/",
-		"description": "Bring and work on your own personal projects. Come hang out, chat, and work on anything JavaScript related. Be sure to bring a laptop this is a time to get things done on your existing projects not a normal structured meeting!",
-		"attendance": 0,
-		"rsvps": 0
-	}, {
+	},  {
 		"title": " JSLou JavaScript Hack Night",
 		"photo": "img/hack-night-logo-wz.jpg",
 		"day": "Wednesday",
