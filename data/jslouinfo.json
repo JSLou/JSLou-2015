@@ -25,17 +25,17 @@
             "title": "Past Events"
         },
         {
-            "url": "about.html",
-            "title": "About"
+          "title": "About",
+            "url": "about.html"
         },
         {
-            "url": "http://slackin.louisville.io/",
+            "url": "https://slackin.louisvilletech.org/",
             "title": "Join Slack Channel",
             "targetBlank": true
         },
         {
-            "url": "https://www.google.com/calendar/embed?src=jslouky@gmail.com",
-            "title": "Calendar",
+            "url": "https://www.meetup.com/jslouky/",
+            "title": "Celendar",
             "targetBlank": true
         }
     ]
