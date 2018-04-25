@@ -1,6 +1,8 @@
 <div class="speakerAnnouncement col1-2">
 
 	<div class="module">
+
+		{{#if date}}
 		{{#if attendance}}
 		<div class="attendance" title="Attendance for {{date}}"><i class="fa fa-group"></i><span class="rsvps">{{attendance}}</a></div>
 			{{/if}}
@@ -46,4 +48,6 @@
 					<p> {{description}} </p>
 				</div>
 			</div>
+
+			{{/if}}
 		</div>

@@ -12,6 +12,13 @@
 @import"topics";
 @import"mobilemenu";
 
+
+.announcement{
+  text-align: center;
+  background: $red;
+  padding: 25px;
+}
+
 .logo{
   margin: 10px auto 0 auto;
   display: block;
