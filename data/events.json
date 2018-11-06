@@ -1,4 +1,32 @@
 [{
+		"firstName": "Nader",
+		"lastName": "Dabit",
+		"title": "Building serverless GraphQL applications with React & AWS AppSync",
+		"photo": "img/speakers/nader-dabit.jpg",
+		"day": "Wednesday",
+		"date": "2019-01-16",
+		"time": "6pm",
+		"directions": "https://www.google.com/maps/place/CBS+Interactive+Inc/@38.2641814,-85.5760875,17z/data=!3m1!4b1!4m5!3m4!1s0x40762fee4ae2ff91:0x842148d7dc159110!8m2!3d38.2641814!4d-85.5738935",
+		"location": "CBS Interactive Louisville",
+		"meetup": "https://www.meetup.com/JSLouKY/events/256187785/",
+		"presentation": "",
+		"description": "Nader Dabit is a Developer Advocate at AWS Mobile specializing in cross-platform application development & mobile cloud services. Come learn about Building serverless GraphQL applications with React & AWS AppSync - This will demo creating a GraphQL API, hooking it up to a React application, & adding authentication, authorization & fine - grained access - control"
+	},
+	{
+		"firstName": "Against The Grain",
+		"lastName": "",
+		"title": "Social Night",
+		"photo": "img/speakers/atg.png",
+		"day": "Wednesday",
+		"date": "2018-11-21",
+		"time": "6pm",
+		"directions": "https://www.google.com/maps/place/Against+the+Grain+Brewery+and+Smokehouse/@38.2554896,-85.7440216,15z/data=!4m5!3m4!1s0x0:0xa019f783264b6a58!8m2!3d38.2554896!4d-85.7440216",
+		"location": "Against the Grain Brewery",
+		"meetup": "https://www.meetup.com/JSLouKY/events/256182137/",
+		"presentation": "",
+		"description": "Join us at Against the Grain, Wednesday, November 21 from 6-8p.m. as we close out the year. Come hang out, grab a drink, and chat about all things JavaScript, and what we hope to see in 2019."
+	},
+	{
 		"firstName": "Chris",
 		"lastName": "Burgin",
 		"title": "Building a React Component Library",
